@@ -3,8 +3,6 @@ import { useState } from 'react'
 import Link from 'next/link'
 import { Permanent_Marker } from 'next/font/google'
 import {Logo} from '../header/Logo'
-import {DesktopMenu} from '../header/DesktopMenu'
-import {MobileMenu} from '../header/MobileMenu'
 
 const permanent_marker = Permanent_Marker({
   subsets: ['latin'],
@@ -28,7 +26,6 @@ export const TopHead = () => {
     <div className="flex flex-col aline-end max-w-fit">
         <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${permanent_marker.className}`}>Ställ ditt barn i kö</Link>
          </div>
-      {/* <DesktopMenu/> */}
       <div className='pr-8 w-max hidden md:block'>
         
          <div>
