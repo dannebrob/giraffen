@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <main>
       <TopHead />
+      <div className='h-96'>asdlksn</div> {/* bara för att visa */}
       <Footer />
     </main>
   )

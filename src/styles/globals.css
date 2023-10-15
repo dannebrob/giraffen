@@ -6,6 +6,12 @@
 
 }
 
+.wave-container {
+  position: relative;
+  color: #FFF;
+  text-align: center;
+  overflow: hidden;
+}
 
 
 

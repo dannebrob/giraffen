@@ -50,7 +50,7 @@ export const TopHead = () => {
     <div className='md:hidden pr-5'>
         <button onClick={toggle}>
                     <svg
-            className='w-6 h-6'
+            className='w-8 h-8'
             fill='none'
             stroke='currentColor'
             viewBox='0 0 24 24'
@@ -70,7 +70,7 @@ export const TopHead = () => {
     
        <button onClick={toggle}>
                     <svg
-            className='w-6 h-6 mr-10 mt-10'
+            className='w-8 h-8 mr-6 mt-14'
             fill='none'
             stroke='currentColor'
             viewBox='0 0 24 24'
