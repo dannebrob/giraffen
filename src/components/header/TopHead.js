@@ -21,7 +21,7 @@ export const TopHead = () => {
   return (
     <>
     {!isOpen ?
-    <section className="w-screen bg-lightBlue flex justify-between items-center" >
+    <section className="w-full bg-lightBlue flex justify-between items-center" >
     <Logo/>
     <div className="flex flex-col aline-end max-w-fit">
         <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${permanent_marker.className}`}>Ställ ditt barn i kö</Link>
