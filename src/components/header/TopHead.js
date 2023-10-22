@@ -1,10 +1,10 @@
 import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
-import { Permanent_Marker } from 'next/font/google'
+import { Caveat } from 'next/font/google'
 import {Logo} from '../header/Logo'
 
-const permanent_marker = Permanent_Marker({
+const caveat = Caveat({
   subsets: ['latin'],
   weight: ['400'],
   display: 'swap',
@@ -24,7 +24,7 @@ export const TopHead = () => {
     <section className="w-full bg-lightBlue flex justify-between items-center" >
     <Logo/>
     <div className="flex flex-col aline-end max-w-fit">
-        <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${permanent_marker.className}`}>Ställ ditt barn i kö</Link>
+        <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
          </div>
       <div className='pr-8 w-max hidden md:block'>
         
@@ -86,7 +86,7 @@ export const TopHead = () => {
         </button>
         <div className="flex flex-col aline-end max-w-fit">
         <div className='w-screen flex justify-center'>
-        <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${permanent_marker.className}`}>Ställ ditt barn i kö</Link>
+        <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
         </div>
          </div>
         <nav className='pt-24 w-full text-center text-3xl font-medium'>

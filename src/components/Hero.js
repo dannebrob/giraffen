@@ -1,12 +1,10 @@
 import React from 'react'
-import { Permanent_Marker } from 'next/font/google'
+import { Caveat } from 'next/font/google'
 
 import Image from 'next/image'
 import heroMobile from '../assets/hero-mobile.png'
 
-console.log(heroMobile);
-
-const permanent_marker = Permanent_Marker({
+const caveat = Caveat({
     subsets: ['latin'],
     weight: ['400'],
     display: 'swap',
@@ -25,7 +23,7 @@ export const Hero = () => {
     />
             </div>
             <div className='w-full border-solid border-2 border-indigo-600 flex flex-col text-center px-8'>
-            <h1 className={`${permanent_marker.className} text-5xl py-8`}>Om giraffen</h1>
+            <h1 className={`${caveat.className} text-5xl py-8`}>Om giraffen</h1>
             
             <p className=''>
                 Högt upp på en kulle med utsikt över sjön Lillelången, i natursköna Norsesund som ligger i utkanten av Alingsås, 
