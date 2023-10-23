@@ -21,7 +21,6 @@ export const Hero = () => {
             <Image
             src={heroImg.src}
             alt="profile"
-            objectFit="cover"
             width={100}
             height={100}
             className="w-full h-full top-0 left-0 object-cover rounded-2xl"
