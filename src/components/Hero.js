@@ -2,7 +2,7 @@ import React from 'react'
 import { Caveat } from 'next/font/google'
 
 import Image from 'next/image'
-import heroImg from '../assets/Hero.png'
+import heroImg from '../assets/hero.png'
 import heroMobile from '../assets/hero-mobile.png'
 
 console.log(heroMobile.src);
