@@ -2,10 +2,8 @@ import React from 'react'
 import { Caveat } from 'next/font/google'
 
 import Image from 'next/image'
-import heroImg from '../assets/Hero.png'
+import heroImg from '../assets/hero.png'
 import heroMobile from '../assets/hero-mobile.png'
-
-console.log(heroMobile.src);
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -17,7 +15,7 @@ export const Hero = () => {
   return (
     <section className='w-full'>
         <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
-          <div className='w-full border-solid border-2 border-indigo-600'>
+          <div className='w-full'>
             <Image
             src={heroImg.src}
             alt="profile"
@@ -27,7 +25,7 @@ export const Hero = () => {
         />
       
           </div>
-            <div className='w-full border-solid border-2 border-indigo-600 flex flex-col text-center px-8'>
+            <div className='w-full flex flex-col text-center px-8'>
             <h1 className={`${caveat.className} text-5xl py-8`}>Om giraffen</h1>
             
             <p className=''>
