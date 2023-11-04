@@ -11,12 +11,14 @@ import { Faq } from '@/components/Faq'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <TopHead />
+      <main>
       <Hero />
       <Display />
       <Faq />
+      </main>
       <Footer />
-    </main>
+    </>
   )
 }

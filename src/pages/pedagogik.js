@@ -9,10 +9,10 @@ import {Footer} from '@/components/footer/Footer'
 
 export default function Pedagogik() {
   return (
-    <main>
+    <>
       <TopHead />
       Pedagogik
       <Footer />
-    </main>
+    </>
   )
 }

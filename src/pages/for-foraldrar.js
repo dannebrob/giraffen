@@ -9,10 +9,10 @@ import {Footer} from '@/components/footer/Footer'
 
 export default function Foraldrar() {
   return (
-    <main>
+    <>
       <TopHead />
       För föräldrar
       <Footer />
-    </main>
+    </>
   )
 }
