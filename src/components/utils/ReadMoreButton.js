@@ -9,10 +9,11 @@ const caveat = Caveat({
     display: 'swap',
   })
 
-export const ReadMoreButton = () => {
+export const ReadMoreButton = ({link}) => {
+  console.log(link);
   return (
     <div className='mt-8'>
-    <Link href={'#'}>
+    <Link href={link}>
         <div className={`p-2 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Läs mer</div>
     </Link>
     </div>

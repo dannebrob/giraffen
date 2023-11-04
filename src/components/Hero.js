@@ -13,7 +13,7 @@ const caveat = Caveat({
 
 export const Hero = () => {
   return (
-    <section className='w-full p-b-2'>
+    <section className='w-full pb-10'>
         <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
           <div className='w-full'>
             <Image
@@ -21,7 +21,7 @@ export const Hero = () => {
             alt="profile"
             width={100}
             height={100}
-            className="w-full h-full top-0 left-0 object-cover rounded-2xl"
+            className="w-full h-full top-0 left-0 object-cover"
         />
       
           </div>
@@ -35,11 +35,11 @@ export const Hero = () => {
                 Fokus för verksamheten ligger på naturen och miljön
             </p>
 
-            <p className=''> Hos oss får du:</p>
+            <p className='pt-4'> Hos oss får du:</p>
             <ul>
-                <li> Hög personaltäthet, med professionella pedagoger</li>
-                <li>Fokus på natur och miljö, med hemlagad mat och skog och strand om husknuten</li>
-                <li>Insyn och delaktighet som förälder</li>
+                <li>- Hög personaltäthet, med professionella pedagoger</li>
+                <li>- Fokus på natur och miljö, med hemlagad mat och skog och strand om husknuten</li>
+                <li>- Insyn och delaktighet som förälder</li>
             </ul>
             <p>Gör en intresseanmälan om förskoleplats hos oss.</p>
             </div>

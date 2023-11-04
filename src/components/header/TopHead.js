@@ -24,21 +24,21 @@ export const TopHead = () => {
     <section className="w-full bg-lightBlue flex justify-between items-center" >
     <Logo/>
     <div className="flex flex-col aline-end max-w-fit">
-        <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+        
          </div>
       <div className='pr-8 w-max hidden md:block'>
-        
          <div>
             <nav>
-                <ul className='flex font-medium text-lg'>
+                <ul className='flex font-medium text-lg items-center'>
+              <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
                     <li className='p-2'>
-                      <Link href="/om-oss">Om oss</Link> 
+                      <Link href="/om-oss">Om oss!</Link> 
                     </li>
                     <li className='p-2'>
                         <Link href="/nyheter">Nyheter</Link>
                     </li>
                     <li className='p-2'>
-                        <Link href="/foraldrar">För föräldrar</Link>
+                        <Link href="/for-foraldrar">För föräldrar</Link>
                     </li>
                     <li className='p-2'>
                         <Link href="/kontakt">kontakt</Link>
@@ -91,9 +91,9 @@ export const TopHead = () => {
          </div>
         <nav className='pt-24 w-full text-center text-3xl font-medium'>
           <ul>
-            <Link href={'/om'}><li className='p-5'>Om oss</li></Link>
+            <Link href={'/om-oss'}><li className='p-5'>Om oss</li></Link>
             <Link href={'/nyheter'}><li className='p-5'>Nyheter</li></Link>
-            <Link href={'/foraldrar'}><li className='p-5'>För föräldrar</li></Link>
+            <Link href={'/for-foraldrar'}><li className='p-5'>För föräldrar</li></Link>
             <Link href={'/kontakt'}><li className='p-5'>Kontakt</li></Link>
           </ul>
         </nav>

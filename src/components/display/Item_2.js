@@ -34,7 +34,7 @@ export const Item2 = () => {
                 Helt är både har träutensilierna att erfarenheter lax annat, och rännil det björnbär jäst genom erfarenheter, genom så omfångsrik så sjö häst jäst.
             </p>
         </div>
-            <ReadMoreButton />
+            <ReadMoreButton link={'utemiljo'}/>
         </div>
 
     </div>

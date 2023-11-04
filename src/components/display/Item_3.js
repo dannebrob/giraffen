@@ -35,7 +35,7 @@ export const Item3 = () => {
             </p>
           
         </div>
-            <ReadMoreButton />
+            <ReadMoreButton link={'mat'}/>
         </div>
 
     </div>
