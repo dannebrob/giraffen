@@ -13,7 +13,7 @@ const caveat = Caveat({
 
 export const Hero = () => {
   return (
-    <section className='w-full'>
+    <section className='w-full p-b-2'>
         <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
           <div className='w-full'>
             <Image

@@ -13,7 +13,7 @@ export const ReadMoreButton = () => {
   return (
     <div className='mt-8'>
     <Link href={'#'}>
-        <div className={`p-3 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Läs mer</div>
+        <div className={`p-2 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Läs mer</div>
     </Link>
     </div>
   )
