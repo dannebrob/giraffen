@@ -41,7 +41,7 @@ export const Faq = () => {
       <h1 className={`my-3 text-center text-4xl p-8 text-white ${caveat.className}`}>Vanliga frågor</h1>
       <div>
         {accordionData.map(({ title, content }) => (
-          <FaqItem title={title} content={content} />
+          <FaqItem title={title} content={content} key={title} />
         ))}
       </div>
     </div>
