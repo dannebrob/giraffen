@@ -23,7 +23,7 @@ export default function Kontakt() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", process.env.NEXT_PUBLIC_API_KEY);
+    formData.append("access_key", '69c5f846-9c97-44a5-9ff7-b41d726d697b');
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
