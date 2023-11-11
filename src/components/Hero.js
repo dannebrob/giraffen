@@ -15,7 +15,7 @@ export const Hero = () => {
   return (
     <section className='w-full pb-10'>
         <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
-          <div className='w-full'>
+          <div className='w-full md:w-1/2'>
             <Image
             src={heroImg.src}
             alt="profile"
@@ -23,9 +23,9 @@ export const Hero = () => {
             height={100}
             className="w-full h-full top-0 left-0 object-cover"
         />
-      
-          </div>
-            <div className='w-full flex flex-col text-center px-8'>
+    
+        </div>
+            <div className='flex flex-col text-center px-8 md:w-1/2'>
             <h1 className={`${caveat.className} text-5xl py-8`}>Om giraffen</h1>
             
             <p className=''>
