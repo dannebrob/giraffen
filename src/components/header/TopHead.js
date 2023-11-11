@@ -30,7 +30,7 @@ export const TopHead = () => {
          <div>
             <nav>
                 <ul className='flex font-medium text-lg items-center'>
-              <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+              <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
                     <li className='p-2'>
                       <Link href="/om-oss">Om oss!</Link> 
                     </li>
@@ -86,7 +86,7 @@ export const TopHead = () => {
         </button>
         <div className="flex flex-col aline-end max-w-fit">
         <div className='w-screen flex justify-center'>
-        <Link href="/intresse" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+        <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
         </div>
          </div>
         <nav className='pt-24 w-full text-center text-3xl font-medium'>
