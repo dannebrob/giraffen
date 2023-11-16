@@ -20,7 +20,7 @@ export default function Kontakt() {
 
   const onSubmit = async (event) => {
     event.preventDefault();
-    setResult("Sending....");
+    setResult("Skickar....");
     const formData = new FormData(event.target);
 
     formData.append("access_key", '69c5f846-9c97-44a5-9ff7-b41d726d697b');
@@ -32,10 +32,10 @@ export default function Kontakt() {
 
     if (res.success) {
       console.log("Success", res);
-      setResult(res.message);
+      setResult('Tack för ditt meddelande, vi återkommer så snart vi kan!');
     } else {
       console.log("Error", res);
-      setResult(res.message);
+      setResult('ojdå, nu blev nog något fel, försök igen!');
     }
   };
 
@@ -43,16 +43,19 @@ export default function Kontakt() {
     <>
       <TopHead />
       <section className="className='w-full pb-10 bg-sand">
-      <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
+      <div className='w-full flex flex-col md:flex-wrap '>
       <h1 className={`text-center p-10 ${caveat.className} text-5xl py-8`}>Välkommen att kontakta oss på Giraffen</h1>
       <div className='px-10'>
       <p className='text-center'>Om du vill ställa ditt barn i kö hos oss eller har några funderingar, skriv gärna till oss här!</p>
       </div>
-      <form onSubmit={onSubmit} className='flex flex-col p-10 md:p-32'>
+      <form onSubmit={onSubmit} className='flex flex-col p-10 md:px-52'>
       <input type="checkbox" name="botcheck" className='hidden' />
       <input type="hidden" name="from_name" value="Giraffen hemsida - Kontakt"></input>
         <label>Mitt namn</label>
         <input type="text" name="name"/>
+        <label>Mitt telefonnummer</label>
+        <input type="text" name="phone"/>
+        
         <label>Min epost</label>
         <input type="email" name="email"/>
         <label>Mitt meddelande</label>
