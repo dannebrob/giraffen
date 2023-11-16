@@ -35,7 +35,7 @@ export default function Kontakt() {
       setResult('Tack för ditt meddelande, vi återkommer så snart vi kan!');
     } else {
       console.log("Error", res);
-      setResult('ojdå, nu blev nog något fel, försök igen!');
+      setResult('Ojdå, nu blev nog något fel, försök igen!');
     }
   };
 
