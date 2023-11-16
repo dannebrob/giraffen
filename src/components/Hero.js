@@ -1,9 +1,12 @@
 import React from 'react'
 import { Caveat } from 'next/font/google'
 
+import { Attention } from './header/Attention'
+
 import Image from 'next/image'
 import heroImg from '../assets/hero.png'
 import heroMobile from '../assets/hero-mobile.png'
+
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -14,6 +17,7 @@ const caveat = Caveat({
 export const Hero = () => {
   return (
     <section className='w-full pb-10'>
+        <Attention />
         <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
           <div className='w-full md:w-1/2'>
             <Image
