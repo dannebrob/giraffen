@@ -4,7 +4,7 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/image 6.png'
+import item from '@/assets/tyra.jpeg'
 import { Display } from '@/components/display/Display'
 
 const caveat = Caveat({
