@@ -31,7 +31,7 @@ export default function Personalen() {
     <TopHead />
     <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
       <div className='w-full md:mx-10 p-10'>
-        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Personalen</h1>
+        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Vår fantastiska personal</h1>
         <div className='flex flex-wrap justify-center'>
         <p className=''>
         Vi är en engagerad personalgrupp som består av rektor, förskolelärare, barnskötare och kock. Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning och pedagogisk inspiration. Verksamhetens litenhet och närhet mellan barn, föräldrar och personal skapar en lugn och trygg miljö för barnen och en positiv arbetsplats.
@@ -41,10 +41,11 @@ Idag är vi 4 anställda med 19 platser för barn.
 Grunden för verksamheten är att barnen ska känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar aktivt med värdegrundsfrågor
 
         </p>
+        <div className='py-10'>
          { personal.map((person) => { 
             return(
               <div key={person.name} className='w-96 my-10 mx-1'>
-                <div className={`flex justify-center ${person.color}`}>
+                <div className={`flex justify-center ${person.color} rounded-t-lg`}>
                     <Image
                         src={person.image}
                         alt="kids playing" 
@@ -52,12 +53,13 @@ Grunden för verksamheten är att barnen ska känna sig trygga med att det finns
                         height={100}
                         className="w-32 h-32 -mt-6" />
                 </div>
-                <div className='px-4 border'>
+                <div className='px-4 bg-lightSand py-5 rounded-lg'>
                 <h2 className=''>{person.name}</h2>
                 <h3 className='font-bold pb-3'>{person.title}</h3>
                 <p>{person.text}</p>
                 </div>
               </div>	)})}
+        </div>
         </div>
       </div>
        

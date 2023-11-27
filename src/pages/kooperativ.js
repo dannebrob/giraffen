@@ -20,25 +20,26 @@ export default function Kooperativ() {
     <TopHead />
     <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
       <div className='mx-10 md:w-1/2'>
-        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Kooperativ</h1>
-        <p>Löksås ipsum på miljoner erfarenheter rännil dunge enligt på själv, 
-          sin denna hav stig nya upprätthållande enligt hwila, annat ser söka se rot ser blivit sin. 
-          Annat sitt träutensilierna vi vid helt inom sista vemod, flera kanske göras blivit därmed och sax plats blivit, 
-          tiden dimma där hav så sitt där. Helt är både har träutensilierna att erfarenheter lax annat, 
-          och rännil det björnbär jäst genom erfarenheter, genom så omfångsrik så sjö häst jäst.
-          Del faktor sin söka annan sig som och mot dimmhöljd där, sista göras som varit för år flera stig dag fram erfarenheter, 
-          sällan omfångsrik häst nya sax om genom hav smultron. Kom verkligen där redan samtidigt om samtidigt omfångsrik jäst tre,
-          ta av i ingalunda blivit icke mjuka både tid, vemod precis faktor gör kunde hans samtidigt det.
+        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Föräldrakooperativ</h1>
+        <p>
+        Förskolan drivs av ett icke vinstdrivet föräldrakooperativ. Där föräldrarna förväntas delta aktivt vilket innebär att föräldrarnas ideella arbete och engagemang driver föreningen. Ansvaret för den pedagogiska verksamheten och den dagliga driften är delegerat till förskolechefen. Den insats som föräldrarna bidrar med är framför allt relaterad till lokalvård, inköp, och styrelsearbete. Som förälder har du möjlighet att påverka och tycka till. Allt vi föräldrar gör skapar en finare och tryggare miljö för våra barn, vilket är både roligt och givande.
+
         </p>
-        <h2 className={`${caveat.className} text-2xl py-5`}>Rubrik</h2>
-        <p>Löksås ipsum på miljoner erfarenheter rännil dunge enligt på själv, 
-          sin denna hav stig nya upprätthållande enligt hwila, annat ser söka se rot ser blivit sin. 
-          Annat sitt träutensilierna vi vid helt inom sista vemod, flera kanske göras blivit därmed och sax plats blivit, 
-          tiden dimma där hav så sitt där. Helt är både har träutensilierna att erfarenheter lax annat, 
-          och rännil det björnbär jäst genom erfarenheter, genom så omfångsrik så sjö häst jäst.
-          Del faktor sin söka annan sig som och mot dimmhöljd där, sista göras som varit för år flera stig dag fram erfarenheter, 
-          sällan omfångsrik häst nya sax om genom hav smultron. Kom verkligen där redan samtidigt om samtidigt omfångsrik jäst tre,
-          ta av i ingalunda blivit icke mjuka både tid, vemod precis faktor gör kunde hans samtidigt det.
+        <h2 className={`${caveat.className} text-2xl py-5`}>Styrelse</h2>
+        <p>Föräldraföreningens styrelse är arbetsgivare och har ansvaret för verksamheten. Här ingår en ordförande, sekreterare, kassör, löneansvarig och personalansvarig samt två supleanter som hjälper till vid behov. På styrelsens ansvar ligger budgetarbete, kommunikation med kommun, arbetsgivaransvar med mera. Vi går efter kommunens maxtaxa.
+        </p>
+        <h2 className={`${caveat.className} text-2xl py-5`}>Arbetsgrupper</h2>
+        <p>
+        När man blir medlem i föreningen blir man också tillfrågad vilken arbetsgrupp man vill tillhöra. För att förskolan ska fungera på bästa sätt finns arbetsgrupperna; Innegruppen, Utegruppen, Trivselgruppen, Inköp och IT, där varje föräldrer hjälper till med sådant som behöver göras under årets gång (styrelsemedlemmar ingår inte här)
+        </p>
+        <h2 className={`${caveat.className} text-2xl py-5`}>Arbetsdagar</h2>
+        <p>
+        Två gånger om året utförs arbetsdagar, en gång på våren ochn en på hösten. Här utförs ett grovstäd både inne och ute samt lagar eller fixar saker vid behov. Här drar alla föräldrar sitt står till stacken samtidigt som vi spenderar lite trevlig tid tillsammans. I pauserna är det lite lunch och fika där vi kan lära känna varandra lite mer.
+        </p>
+        <h2 className={`${caveat.className} text-2xl py-5`}>Städ</h2>
+        <p>
+        Giraffens lokaler följer ett städschema på tisdagar och torsdagar, där föräldrar ligger på rullande schema (styrelsefamiljer ingår vanligtvis inte här).
+
         </p>
         </div>	
         <div className='md:w-1/2'>

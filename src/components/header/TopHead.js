@@ -32,16 +32,16 @@ export const TopHead = () => {
                 <ul className='flex font-medium text-lg items-center'>
               <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
                     <li className='p-2'>
-                      <Link href="/om-oss">Om oss!</Link> 
+                      <Link href="/om-oss">Lokalerna</Link> 
+                    </li>
+                    <li className='p-2'>
+                        <Link href="/for-foraldrar">Föräldrakooperativ</Link>
                     </li>
                     <li className='p-2'>
                         <Link href="/nyheter">Nyheter</Link>
                     </li>
                     <li className='p-2'>
-                        <Link href="/for-foraldrar">För föräldrar</Link>
-                    </li>
-                    <li className='p-2'>
-                        <Link href="/kontakt">kontakt</Link>
+                        <Link href="/kontakt">Kontakt</Link>
                     </li>
                 </ul>
             </nav>
@@ -91,9 +91,9 @@ export const TopHead = () => {
          </div>
         <nav className='pt-24 w-full text-center text-3xl font-medium'>
           <ul>
-            <Link href={'/om-oss'}><li className='p-5'>Om oss</li></Link>
+            <Link href={'/om-oss'}><li className='p-5'>Lokalerna</li></Link>
+            <Link href={'/for-foraldrar'}><li className='p-5'>Föräldrakooperativ</li></Link>
             <Link href={'/nyheter'}><li className='p-5'>Nyheter</li></Link>
-            <Link href={'/for-foraldrar'}><li className='p-5'>För föräldrar</li></Link>
             <Link href={'/kontakt'}><li className='p-5'>Kontakt</li></Link>
           </ul>
         </nav>

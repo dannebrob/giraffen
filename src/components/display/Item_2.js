@@ -28,13 +28,11 @@ export const Item2 = () => {
         </div>
         <div className='md:w-6/12'> 
         <div className='flex flex-col p-4'>
-            <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Utemiljö</h2>
-            <p>Löksås ipsum på miljoner erfarenheter rännil dunge enligt på själv, sin denna hav stig nya upprätthållande enligt hwila, annat ser söka se rot ser blivit sin. Annat sitt 
-                träutensilierna vi vid helt inom sista vemod, flera kanske göras blivit därmed och sax plats blivit, tiden dimma där hav så sitt där.
-                Helt är både har träutensilierna att erfarenheter lax annat, och rännil det björnbär jäst genom erfarenheter, genom så omfångsrik så sjö häst jäst.
+            <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Maten</h2>
+            <p>Vi har en egen kock som lagar mat från grunden och i möjligaste mån med ekologiskt, kravodlat och från närproducerade råvaror. På somrarna har vi lyxen att få leverans från ….. nära förskolan. Veckomenyn varierar, det bjuds på fisk minst en gång i veckan, matiga soppor, husmanskost och olika vegitariskt rätter. 
             </p>
         </div>
-            <ReadMoreButton link={'utemiljo'}/>
+            <ReadMoreButton link={'mat'}/>
         </div>
 
     </div>

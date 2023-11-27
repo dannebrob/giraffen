@@ -14,8 +14,11 @@ module.exports = {
       "greenDark": "#2C4001",
       "greenLight": "#85A838",
       "sand": "#F2C48D",
+      "lightSand": "#F7E3C0",
       "brown": "#733702",
-      "white": "#FFFBFB"
+      "white": "#FFFBFB",
+      "infoSubtle": "#cff4fc",
+      "info": "#0DCAF0",
     },
     extend: {
     },
