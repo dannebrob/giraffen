@@ -4,7 +4,7 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/image 6.png'
+import item from '@/assets/IMG_5.jpg'
 import { Display } from '@/components/display/Display'
 
 
@@ -41,7 +41,7 @@ export default function Mat() {
             alt="kids playing" 
             width={100}
             height={100}
-            className="w-full p-10"
+            className="w-full p-10 md:m-w-[700]"
         /> 
           </div>
       </main>

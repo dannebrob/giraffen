@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
 
-import item from '@/assets/image 3.png'
+import item from '@/assets/IMG_13.jpg'
 import { ReadMoreButton } from '@/components/utils/ReadMoreButton'
 
 const caveat = Caveat({
@@ -23,7 +23,7 @@ export const Item3 = () => {
             alt="profile" 
             width={100}
             height={100}
-            className="w-full top-0 left-0 object-cover rounded-2xl"
+            className="w-full top-0 left-0 object-cover rounded-2xl max-h-[700px]"
         />
         </div>
         <div className='md:w-6/12 pl-4'> 

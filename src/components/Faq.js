@@ -39,7 +39,7 @@ const accordionData = [
 
 export const Faq = () => {
   return (
-    <div className='px-10 pt-10 bg-green md:px-32'>
+    <div className='px-10 py-10 bg-green md:px-32'>
       <h1 className={`my-3 text-center text-4xl p-8 text-white ${caveat.className}`}>Vanliga frågor</h1>
       <div>
         {accordionData.map(({ title, content, tag }) => (

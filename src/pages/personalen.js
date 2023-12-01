@@ -41,10 +41,10 @@ Idag är vi 4 anställda med 19 platser för barn.
 Grunden för verksamheten är att barnen ska känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar aktivt med värdegrundsfrågor
 
         </p>
-        <div className='py-10'>
+        <div className='py-10 md:flex md:flex-wrap justify-center'>
          { personal.map((person) => { 
             return(
-              <div key={person.name} className='w-96 my-10 mx-1'>
+              <div key={person.name} className='w-96 md my-10 mx-1'>
                 <div className={`flex justify-center ${person.color} rounded-t-lg`}>
                     <Image
                         src={person.image}

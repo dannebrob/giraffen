@@ -4,7 +4,7 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/image 6.png'
+import item from '@/assets/IMG_1.jpg'
 import { Display } from '@/components/display/Display'
 
 const caveat = Caveat({
@@ -18,7 +18,7 @@ export default function Kooperativ() {
   return (
     <>
     <TopHead />
-    <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
+    <main className='bg-sand flex flex-col md:flex-row md:justify-start items-center'>
       <div className='mx-10 md:w-1/2'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Föräldrakooperativ</h1>
         <p>
