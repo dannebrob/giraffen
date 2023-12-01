@@ -38,7 +38,7 @@ export default function Lokalerna() {
           Tyvärr är förskolan inte rullstolsanpassad.
           </p>
 
-          <h1 className={`text-center ${caveat.className} text-4xl py-10`}>"Jag gillar  bäst lådorna med Lego" -Signe, 4år</h1>
+          <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Jag gillar  bäst lådorna med Lego -Signe, 4år</h1>
           <p>
           Giraffens gård finns i direkt anslutning till verksamheten och består av lekplats, standlåda, gräsplan. Vi är ute dagligen i vår härliga omgivning där barnens motoriska utveckling tränas på ett naturligt sätt. Även ute vistas både yngre och äldre barn tillsammans.
 
