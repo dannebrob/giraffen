@@ -4,8 +4,7 @@ import Link from 'next/link'
 import { Attention } from './header/Attention'
 
 import Image from 'next/image'
-import heroImg from '../assets/hero.png'
-import heroMobile from '../assets/hero-mobile.png'
+import heroImg from '@/assets/IMG_11.jpg'
 
 
 
