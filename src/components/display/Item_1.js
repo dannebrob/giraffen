@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { Caveat } from 'next/font/google'
 
@@ -15,6 +16,7 @@ const caveat = Caveat({
 
 
 export const Item1 = () => {
+ 
   return (
     <div className='bg-sand flex flex-col w-full p-8 md:flex-wrap md:flex-row'>
         <div className='md:w-6/12 md:flex md:items-center md:justify-center'>
