@@ -18,11 +18,9 @@ export const Item4 = () => {
     return (
         <div className='flex flex-col w-full p-8 md:flex-wrap md:flex-row md:flex-row-reverse'>
             <div className='md:w-6/12 md:flex md:items-center'>
-            <Image
-                src={item}
-                alt="profile" 
-                width={100}
-                height={100}
+            <img
+                src={item.src}
+                alt="burkar med färg" 
                 className="w-full top-0 left-0 object-cover rounded-2xl"
             />
             </div>
