@@ -6,6 +6,7 @@ import {Footer} from '@/components/footer/Footer'
 
 import item from '@/assets/IMG_5.jpg'
 import { Display } from '@/components/display/Display'
+import { Photos } from '@/components/photos/Photos'
 
 
 const caveat = Caveat({
@@ -46,6 +47,7 @@ export default function Mat() {
           </div>
       </main>
       <Display />
+      <Photos />
       <Footer />
     </>
     </>

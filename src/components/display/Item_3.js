@@ -16,13 +16,11 @@ const caveat = Caveat({
 
 export const Item3 = () => {
   return (
-    <div className='bg-sand flex flex-col w-full p-8 md:flex-wrap md:flex-row '>
+    <div className='bg-lightSand flex flex-col w-full p-8 md:flex-wrap md:flex-row '>
         <div className='md:w-6/12 md:flex md:items-center'>
-        <Image
-            src={item}
-            alt="profile" 
-            width={100}
-            height={100}
+        <img
+            src={item.src}
+            alt="Våran kock lagar mat med barn" 
             className="w-full top-0 left-0 object-cover rounded-2xl max-h-[700px]"
         />
         </div>

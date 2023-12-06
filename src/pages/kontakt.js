@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
+import { Photos } from '@/components/photos/Photos'
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -87,6 +88,7 @@ export default function Kontakt() {
       </section>
 
 <script src="https://web3forms.com/client/script.js" async defer></script> */}
+     <Photos />
       <Footer />
     </>
   )

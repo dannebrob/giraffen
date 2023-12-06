@@ -6,6 +6,7 @@ import {Footer} from '@/components/footer/Footer'
 
 import item from '@/assets/image 6.png'
 import { Display } from '@/components/display/Display'
+import { Photos } from '@/components/photos/Photos'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -52,6 +53,7 @@ export default function Utemiljo() {
           </div>
       </main>
       <Display />
+      <Photos />
       <Footer />
     </>
   )

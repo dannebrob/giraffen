@@ -10,6 +10,7 @@ import alia from '@/assets/alia.png'
 
 import item from '@/assets/image 6.png'
 import { Display } from '@/components/display/Display'
+import { Photos } from '@/components/photos/Photos'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -65,6 +66,7 @@ Grunden för verksamheten är att barnen ska känna sig trygga med att det finns
        
     </main>
     <Display />
+    <Photos />
     <Footer />
   </>
   )

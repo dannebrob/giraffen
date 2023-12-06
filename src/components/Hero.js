@@ -20,13 +20,7 @@ export const Hero = () => {
         <Attention />
         <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
           <div className='w-full md:w-1/2'>
-            <Image
-            src={heroImg.src}
-            alt="profile"
-            width={100}
-            height={100}
-            className="w-full h-full top-0 left-0 object-cover"
-        />
+            <img alt='Förskolan giraffen' src={heroImg.src}/>
     
         </div>
             <div className='flex flex-col text-center px-8 md:w-1/2 items-center'>

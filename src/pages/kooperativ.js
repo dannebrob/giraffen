@@ -6,6 +6,7 @@ import {Footer} from '@/components/footer/Footer'
 
 import item from '@/assets/IMG_1.jpg'
 import { Display } from '@/components/display/Display'
+import { Photos } from '@/components/photos/Photos'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -53,6 +54,7 @@ export default function Kooperativ() {
         </div>
     </main>
     <Display />
+    <Photos />
     <Footer />
   </>
   )

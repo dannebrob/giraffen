@@ -6,6 +6,7 @@ import {Footer} from '@/components/footer/Footer'
 
 import item from '@/assets/tyra.jpeg'
 import { Display } from '@/components/display/Display'
+import { Photos } from '@/components/photos/Photos'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -52,6 +53,7 @@ export default function Pedagogik() {
         </div>
     </main>
     <Display />
+    <Photos />
     <Footer />
   </>
   )
