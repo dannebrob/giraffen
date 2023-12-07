@@ -20,8 +20,8 @@ export const Item2 = () => {
         <div className='md:w-6/12 md:flex md:items-center'>
         <Image
             src={item.src}
-            width={200}
-            height={200}
+            width={1200}
+            height={1200}
             quality={100}
             alt="Grönsaker på bänk"
             className="w-full top-0 left-0 object-cover rounded-2xl"

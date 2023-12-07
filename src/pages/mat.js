@@ -40,8 +40,8 @@ export default function Mat() {
         <Image
             src={item}
             alt="kids playing" 
-            width={100}
-            height={100}
+            width={1200}
+            height={1200}
             quality={100}
             className="w-full p-10 md:m-w-[700]"
         /> 
