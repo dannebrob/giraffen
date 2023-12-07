@@ -51,6 +51,7 @@ export default function Lokalerna() {
             alt="kids playing" 
             width={100}
             height={100}
+            quality={100}
             className="w-full p-10"
         /> 
           </div>

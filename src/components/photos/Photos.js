@@ -1,14 +1,16 @@
 import React from 'react'
+import Image from 'next/image';
+
+import img from '@/assets/IMG_13.jpg'
 
 console.log('yes');
 export const Photos = () => {
   return (
     <div>
         <div className='flex justify-around flex-wrap py-5'>
-            <img alt='text' src={'https://media.babyverden.no/wp-content/uploads/2013/03/28120937/crying-toddler-boy-picture-id1160272769.jpg'} className='max-w-md'/>
-            <img alt='text' src={'https://media.babyverden.no/wp-content/uploads/2013/03/28120937/crying-toddler-boy-picture-id1160272769.jpg'} className='max-w-md'/>
-            <img alt='text' src={'https://media.babyverden.no/wp-content/uploads/2013/03/28120937/crying-toddler-boy-picture-id1160272769.jpg'} className='max-w-md'/>
-           
+        <Image src={img} width={200} height={200} quality={100} alt='text'/>
+        <Image src={img} width={200} height={200} quality={100} alt='text'/>
+        <Image src={img} width={200} height={200} quality={100} alt='text'/>
         </div>
     </div>
   )

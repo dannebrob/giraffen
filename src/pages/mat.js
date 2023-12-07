@@ -42,6 +42,7 @@ export default function Mat() {
             alt="kids playing" 
             width={100}
             height={100}
+            quality={100}
             className="w-full p-10 md:m-w-[700]"
         /> 
           </div>
