@@ -4,7 +4,7 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/image 6.png'
+import item from '@/assets/IMG_11.jpg'
 import { Display } from '@/components/display/Display'
 import { Photos } from '@/components/photos/Photos'
 
