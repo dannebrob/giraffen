@@ -47,7 +47,6 @@ export default function Foraldrar() {
           alt="kids playing" 
           width={800}
           height={800}
-          quality={100}
           className="w-full p-10"
       /> 
         </div>

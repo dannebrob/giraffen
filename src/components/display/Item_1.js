@@ -24,7 +24,6 @@ export const Item1 = () => {
             src={item.src}
             width={800}
             height={800}
-            quality={100}
             alt="Våran kock lagar mat med barns" 
             className="w-full md:max-w-md top-0 left-0 object-cover rounded-2xl"
         />

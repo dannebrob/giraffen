@@ -52,7 +52,6 @@ Grunden för verksamheten är att barnen ska känna sig trygga med att det finns
                         alt="kids playing" 
                         width={800}
                         height={800}
-                        quality={100}
                         className="w-32 h-32 -mt-6" />
                 </div>
                 <div className='px-4 bg-lightSand py-5 rounded-lg'>
