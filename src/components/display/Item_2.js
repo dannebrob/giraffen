@@ -22,7 +22,6 @@ export const Item2 = () => {
             src={item.src}
             width={800}
             height={800}
-            quality={100}
             alt="Grönsaker på bänk"
             className="w-full top-0 left-0 object-cover rounded-2xl"
         />
