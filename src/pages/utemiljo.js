@@ -46,8 +46,8 @@ export default function Utemiljo() {
         <Image
             src={item}
             alt="kids playing" 
-            width={1200}
-            height={1200}
+            width={800}
+            height={800}
             quality={100}
             className="w-full p-10"
         /> 

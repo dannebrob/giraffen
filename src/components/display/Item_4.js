@@ -20,8 +20,8 @@ export const Item4 = () => {
             <div className='md:w-6/12 md:flex md:items-center'>
             <Image
                 src={item.src}
-                width={1200}
-                height={1200}
+                width={800}
+                height={800}
                 quality={100}
                 alt="burkar med färg" 
                 className="w-full top-0 left-0 object-cover rounded-2xl"

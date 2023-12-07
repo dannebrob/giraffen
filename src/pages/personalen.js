@@ -50,8 +50,8 @@ Grunden för verksamheten är att barnen ska känna sig trygga med att det finns
                     <Image
                         src={person.image}
                         alt="kids playing" 
-                        width={1200}
-                        height={1200}
+                        width={800}
+                        height={800}
                         quality={100}
                         className="w-32 h-32 -mt-6" />
                 </div>
