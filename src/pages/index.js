@@ -6,7 +6,7 @@ import {Footer} from '@/components/footer/Footer'
 import { Hero } from '@/components/Hero'
 import { Display } from '@/components/display/Display'
 import { Faq } from '@/components/Faq'
-import {Photos} from '@/components/photos/Photos'
+import { Photos } from '@/components/photos/Photos'
 
 
 export default function Home() {
@@ -17,8 +17,8 @@ export default function Home() {
       <Hero />
       <Display />
       <Faq />
-      <Photos />
       </main>
+      <Photos />
       <Footer />
     </>
   )
