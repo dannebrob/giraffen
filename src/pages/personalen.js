@@ -8,7 +8,7 @@ import andrew from '@/assets/andrew.png'
 import johanna from '@/assets/johanna.png'
 import alia from '@/assets/alia.png'
 
-import item from '@/assets/image 6.png'
+import item from '@/assets/IMG_11.jpg'
 import { Display } from '@/components/display/Display'
 import { Photos } from '@/components/photos/Photos'
 
