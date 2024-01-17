@@ -11,10 +11,10 @@ export const Display = () => {
  
   return (
     <div>
-    <Item3 />
     <Item2 />
-    <Item1 />
+    <Item3 />
     <Item4 />
+    <Item1 />
     <Attention />
     </div>
   )

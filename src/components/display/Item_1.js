@@ -25,7 +25,7 @@ export const Item1 = () => {
             width={800}
             height={800}
             alt="Våran kock lagar mat med barns" 
-            className="w-full md:max-w-md top-0 left-0 object-cover rounded-2xl"
+            className="w-[500px] md:max-w-md top-0 left-0 object-cover rounded-2xl"
         />
         </div>
         <div className='md:w-6/12 pl-4'> 
