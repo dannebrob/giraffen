@@ -20,7 +20,7 @@ export default function Kooperativ() {
     <>
     <TopHead />
     <main className='bg-sand flex flex-col md:flex-row md:justify-start items-center'>
-      <div className='mx-10 md:w-1/2'>
+      <div className='mx-10 md:w-1/2 py-10'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Föräldrakooperativ</h1>
         <p>
         Förskolan drivs av ett icke vinstdrivet föräldrakooperativ. Det innebär att föräldrarnas ideella arbete och engagemang driver föreningen. Ansvaret för den pedagogiska verksamheten och den dagliga driften är delegerat till förskolechefen. Den insats som föräldrarna bidrar med är framför allt relaterad till lokalvård, inköp, och styrelsearbete. Som förälder har du möjlighet att påverka och tycka till. Allt vi föräldrar gör bidrar till en fin och trygg miljö för våra barn, vilket är både roligt och givande.

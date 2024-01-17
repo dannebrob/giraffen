@@ -22,13 +22,12 @@ export default function Mat() {
      <>
       <TopHead />
       <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
-        <div className='mx-10 md:w-1/2'>
+        <div className='mx-10 md:w-1/2 py-10'>
           <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Mat</h1>
-          <p>Varje dag serverar vi även rikligt med frukt och grönsaker till både mellanmål och lunch och vi 
-            anpassar måltiderna efter barnens behov ur en näringssynpunkt.
+          <p className='pb-4'>Giraffen har en egen kock som lagar mat från grunden och i möjligaste mån med ekologiska och närproducerade råvaror. Under sommarhalvåret har vi lyxen att få grönsaksleverans från Hemsjö köksträdgård. Veckomenyn varierar, det bjuds på fisk minst en gång i veckan, matiga soppor, husmanskost och olika vegetariska rätter.
           </p>
-          <p>Vi har en egen kock som lagar mat från grunden och i möjligaste mån med ekologiskt, kravodlat och från närproducerade råvaror. På somrarna har vi lyxen att få leverans från en gårdspruducents  
-            nära förskolan. Veckomenyn varierar, det bjuds på fisk minst en gång i veckan, matiga soppor, husmanskost och olika vegitariskt rätter. 
+          <p className='pb-4'>
+          Maten är även en del av den pedagogiska verksamheten. Barnen på förskolan är ofta välkomna in i köket där de deltar i förberedelser, tillagning av lunch och mellanmål. Med detta skapas en nyfikenhet och förståelse för matens ursprung och betydelse.
           </p>
           <h2 className={`${caveat.className} text-2xl py-5`}>Kommentar från Andrew</h2>
 

@@ -1,0 +1,55 @@
+import Image from 'next/image'
+import { Inter } from 'next/font/google'
+import { Caveat } from 'next/font/google'
+import {TopHead} from '@/components/header/TopHead'
+import {Footer} from '@/components/footer/Footer'
+
+import item from '@/assets/IMG_11.jpg'
+import { Display } from '@/components/display/Display'
+import { Photos } from '@/components/photos/Photos'
+
+const caveat = Caveat({
+  subsets: ['latin'],
+  weight: ['400'],
+  display: 'swap',
+})
+
+
+export default function Miljo() {
+  return (
+    <>
+      <TopHead />
+      <main className='bg-sand flex flex-col md:flex-row md:justify-start  items-center'>
+        <div className='mx-10 md:w-1/2 py-10'>
+          <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Ute och inne-miljö</h1>
+          <h2 className='text-3xl'>Innemiljö</h2>
+          <p className='pb-4'>Föräldraföreningen hyr sina lokaler av BRF Nordgård, vilka är belägna i samma byggnad som föreningens lägenheter. Personal och föräldrar har stor möjlighet till påverkan när det gäller lokalernas utformning och underhåll.</p>
+          <p className='pb-4'>
+          I förskolans centrum som innefattar läs- och myshörna, samlingshörna, en större golvyta för legobygge m.m. Där finns även flera stora bord som används både vid måltider och vid pyssel. I anslutning finns två ytterligare rum för lek, kreativ verksamhet och vila samt ett kök där förskolans kock tillreder alla måltider. I husets entré har barnen ett skåp till sina ytterkläder samt ett torkrum. Där har förskolan även ett rum som både används till vila för de minsta samt till pedagogisk verksamhet av olika slag.  
+            </p>
+          <p className='pb-4'>
+          Tyvärr är förskolans lokaler inte rullstolsanpassade
+            </p>
+          <h2 className='text-3xl'>Utemiljö</h2>
+          <p className='pb-4'>
+          Huset är beläget på en höjd vid sjön Lillelången i Norsesund, med tillgång till egen strand och skog inpå knutarna. Giraffens gård finns i direkt anslutning till verksamheten och består av lekplats, sandlåda och gräsplan. Strax ovanför lekplatsen finns ett skogsparti med balansgång, flera trädkojor samt en grillplats. I förskolans skog tränas barnens motorik och nyfikenhet för naturen väcks till liv. I dessa  härliga utomhusmiljöer vistas barn och pedagoger dagligen. 
+          </p>
+          <p className='pb-4'>
+          Huset ligger på promenadavstånd till pendeltåg och busshållplats.
+            </p>
+          </div>	
+          <div className='md:w-1/2 '>
+        <Image
+            src={item}
+            alt="kids playing" 
+            width={800}
+            height={800}
+            className="w-full p-10"
+        /> 
+          </div>
+      </main>
+      <Photos />
+      <Footer />
+    </>
+  )
+}

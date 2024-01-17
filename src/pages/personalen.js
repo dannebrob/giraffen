@@ -34,13 +34,12 @@ export default function Personalen() {
       <div className='w-full md:mx-10 p-10'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Vår fantastiska personal</h1>
         <div className='flex flex-wrap justify-center'>
-        <p className=''>
-        Vi är en engagerad personalgrupp som består av rektor, förskolelärare, barnskötare och kock. Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning och pedagogisk inspiration. Verksamhetens litenhet och närhet mellan barn, föräldrar och personal skapar en lugn och trygg miljö för barnen och en positiv arbetsplats.
-Idag är vi 4 anställda med 19 platser för barn.
-        </p>
-        <p>
-Grunden för verksamheten är att barnen ska känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar aktivt med värdegrundsfrågor
+        <p className='pb-4'>
+        Giraffens personalgrupp består av rektor/förskollärare, förskolelärare, barnskötare och kock. Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning och pedagogisk inspiration. Verksamhetens litenhet och närhet mellan barn, föräldrar och personal skapar en lugn och trygg miljö för barnen och en positiv arbetsplats.
 
+        </p>
+        <p className='pb-4'>
+        Grunden för verksamheten är att barnen ska känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar aktivt med värdegrundsfrågor.
         </p>
         <div className='py-10 md:flex md:flex-wrap justify-center'>
          { personal.map((person) => { 

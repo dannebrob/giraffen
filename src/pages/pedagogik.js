@@ -21,25 +21,29 @@ export default function Pedagogik() {
     <TopHead />
     <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
       <div className='mx-10 md:w-1/2'>
-        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Pedagogik</h1>
-        <p>Löksås ipsum på miljoner erfarenheter rännil dunge enligt på själv, 
-          sin denna hav stig nya upprätthållande enligt hwila, annat ser söka se rot ser blivit sin. 
-          Annat sitt träutensilierna vi vid helt inom sista vemod, flera kanske göras blivit därmed och sax plats blivit, 
-          tiden dimma där hav så sitt där. Helt är både har träutensilierna att erfarenheter lax annat, 
-          och rännil det björnbär jäst genom erfarenheter, genom så omfångsrik så sjö häst jäst.
-          Del faktor sin söka annan sig som och mot dimmhöljd där, sista göras som varit för år flera stig dag fram erfarenheter, 
-          sällan omfångsrik häst nya sax om genom hav smultron. Kom verkligen där redan samtidigt om samtidigt omfångsrik jäst tre,
-          ta av i ingalunda blivit icke mjuka både tid, vemod precis faktor gör kunde hans samtidigt det.
+        <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Den pedagogiska verksamheten</h1>
+        <p className='font-bold pb-4'>
+        Ledorden omsorg, utveckling och lärande genomsyrar Förskolan Giraffen
         </p>
-        <h2 className={`${caveat.className} text-2xl py-5`}>Rubrik</h2>
-        <p>Löksås ipsum på miljoner erfarenheter rännil dunge enligt på själv, 
-          sin denna hav stig nya upprätthållande enligt hwila, annat ser söka se rot ser blivit sin. 
-          Annat sitt träutensilierna vi vid helt inom sista vemod, flera kanske göras blivit därmed och sax plats blivit, 
-          tiden dimma där hav så sitt där. Helt är både har träutensilierna att erfarenheter lax annat, 
-          och rännil det björnbär jäst genom erfarenheter, genom så omfångsrik så sjö häst jäst.
-          Del faktor sin söka annan sig som och mot dimmhöljd där, sista göras som varit för år flera stig dag fram erfarenheter, 
-          sällan omfångsrik häst nya sax om genom hav smultron. Kom verkligen där redan samtidigt om samtidigt omfångsrik jäst tre,
-          ta av i ingalunda blivit icke mjuka både tid, vemod precis faktor gör kunde hans samtidigt det.
+        <p className=' pb-4'>
+        Här möts vårdnadshavare, barn och kollegor av värme och engagemang
+        </p>
+        <p className='pb-4'>Vår pedagogiska verksamhet utgår från Skolverkets läroplan för förskolan. Förskolans pedagoger tar tillvara varje barns nyfikenhet och lust att lära. Leken är ett sätt att utvecklas, bearbeta intryck, kommunicera och inspireras. Hos oss är barnens inflytande en stor och viktig del där barns intresse visar vilken väg vi tillsammans ska jobba vidare på. Undervisningen anpassas aktivt efter det enskilda barnet samt barngruppen.
+        </p>
+        <h2 className={`${caveat.className} text-2xl py-5`}>Omsorg</h2>
+        <p>Vi på förskolan Giraffen anser att omsorg har en central del i hela vår verksamhet. Viktigt för oss är att alla känner sig trygga och att vi bygger upp nära relationer med barn och dess vårdnadshavare.
+        </p>
+        <p>
+        I vardagsrutinerna som övergångar, påklädning och matsituationer finns omsorgen där genom uppmuntrande stöttning för att våga prova, för att lära och utmana sig. Men även i den fria leken är vi nära för att kunna möta upp barnens tankar och frågeställningar. Omsorg för oss är mer än bara att lyssna, det är även att kunna läsa av kroppsspråk och vara nära med kropp och själ. 
+        </p>
+        <p>
+        Och hur skulle det kunna se ut? Om ett barn en dag inte klarar att hålla sig vaken över måltiden,  kan vi spara lite mat så barnen får sitt när de vaknar. Eller om barnet har en känslomässigt tuff dag så är vi där och ger stöttning i den form som barnet söker, om det så är att sitta bredvid, bli sedd eller krypa upp i ett knä och bli kramad.
+        </p>
+        <h2 className={`${caveat.className} text-2xl py-5`}>Utveckling</h2>
+        <h2 className={`${caveat.className} text-2xl py-5`}>lärande</h2>
+        <p className='pb-4'>
+        När förskollärarna planerar in våra lärsituationer har vi tagit tillvara barns intressen och nyfikenhet. Viktigt för oss är att det ska vara lärorikt och lustfyllt tillfälle när vi samlas i våra olika grupper. Dessa tillfällen kan se lite olika ut beroende på vad som är agendan. Här använder vi både innemiljön och utemiljön, i vår skog ges många möjligheter att utforska bland annat småkryp, se årstidsskiftningar och  motorisk träning. 
+
         </p>
         </div>	
         <div className='md:w-1/2'>
@@ -52,7 +56,6 @@ export default function Pedagogik() {
       /> 
         </div>
     </main>
-    <Display />
     <Photos />
     <Footer />
   </>
