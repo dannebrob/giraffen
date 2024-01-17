@@ -19,7 +19,7 @@ export const Item1 = () => {
  
   return (
     <div className='bg-lightSand flex flex-col w-full p-8 md:flex-wrap md:flex-row'>
-        <div className='md:w-6/12 md:flex md:items-center md:justify-center'>
+        <div className='md:w-6/12 flex items-center justify-center'>
         <Image
             src={item.src}
             width={800}

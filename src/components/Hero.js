@@ -35,10 +35,10 @@ export const Hero = () => {
 
             <p className='pt-4 font-bold'>Hos Giraffen får du:</p>
             <ul>
-                <li>Kompetent, engagerad personal med barnet i fokus.</li>
-                <li>Ett fokus på natur, miljö och där barnen aktiveras med daglig utevistelse med lek, skogsutflykter etc.</li>
-                <li>En egen kock som lagar maten i från grunden och i möjligaste mån närodlade och ekologiska råvaror.</li>
-                <li>Möjlighet till insyn och hög delaktighet.</li>
+                <li>• Kompetent, engagerad personal med barnet i fokus.</li>
+                <li>• Ett fokus på natur, miljö och där barnen aktiveras med daglig utevistelse med lek, skogsutflykter etc.</li>
+                <li>• En egen kock som lagar maten i från grunden och i möjligaste mån närodlade och ekologiska råvaror.</li>
+                <li>• Möjlighet till insyn och hög delaktighet.</li>
             </ul>
             <Link href="/kontakt" className={`p-2 bg-green w-52 m-3 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
             </div>
