@@ -23,24 +23,25 @@ export default function Kooperativ() {
       <div className='mx-10 md:w-1/2'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Föräldrakooperativ</h1>
         <p>
-        Förskolan drivs av ett icke vinstdrivet föräldrakooperativ. Där föräldrarna förväntas delta aktivt vilket innebär att föräldrarnas ideella arbete och engagemang driver föreningen. Ansvaret för den pedagogiska verksamheten och den dagliga driften är delegerat till förskolechefen. Den insats som föräldrarna bidrar med är framför allt relaterad till lokalvård, inköp, och styrelsearbete. Som förälder har du möjlighet att påverka och tycka till. Allt vi föräldrar gör skapar en finare och tryggare miljö för våra barn, vilket är både roligt och givande.
+        Förskolan drivs av ett icke vinstdrivet föräldrakooperativ. Det innebär att föräldrarnas ideella arbete och engagemang driver föreningen. Ansvaret för den pedagogiska verksamheten och den dagliga driften är delegerat till förskolechefen. Den insats som föräldrarna bidrar med är framför allt relaterad till lokalvård, inköp, och styrelsearbete. Som förälder har du möjlighet att påverka och tycka till. Allt vi föräldrar gör bidrar till en fin och trygg miljö för våra barn, vilket är både roligt och givande.
 
         </p>
+        <p className='py-4'>
+        Föräldraengagemenaget är det som gör vår förskola så speciell. Allt som vi föräldrar bidrar med i föreningen i form av tid och engagemang går direkt tillbaka till barnen. Utan föräldrarna skulle vi inte kunna ha så bra verksamhet som vi har idag.
+        </p>
         <h2 className={`${caveat.className} text-2xl py-5`}>Styrelse</h2>
-        <p>Föräldraföreningens styrelse är arbetsgivare och har ansvaret för verksamheten. Här ingår en ordförande, sekreterare, kassör, löneansvarig och personalansvarig samt två supleanter som hjälper till vid behov. På styrelsens ansvar ligger budgetarbete, kommunikation med kommun, arbetsgivaransvar med mera. Vi går efter kommunens maxtaxa.
+        <p>
+        Föräldraföreningens styrelse är arbetsgivare och har ansvaret för verksamheten. Här ingår en ordförande, sekreterare, kassör, löneansvarig och personalansvarig samt två supleanter som hjälper till vid behov. På styrelsens ansvar ligger budgetarbete, kommunikation med kommun, arbetsgivaransvar med mera. Vi går efter kommunens maxtaxa. 
         </p>
         <h2 className={`${caveat.className} text-2xl py-5`}>Arbetsgrupper</h2>
         <p>
-        När man blir medlem i föreningen blir man också tillfrågad vilken arbetsgrupp man vill tillhöra. För att förskolan ska fungera på bästa sätt finns arbetsgrupperna; Innegruppen, Utegruppen, Trivselgruppen, Inköp och IT, där varje föräldrer hjälper till med sådant som behöver göras under årets gång (styrelsemedlemmar ingår inte här)
-        </p>
+        När man blir medlem i föreningen blir man också tillfrågad vilken arbetsgrupp man vill tillhöra. För att förskolan ska fungera på bästa sätt finns arbetsgrupperna; Innegruppen, Utegruppen, Trivselgruppen, Inköp och IT, där varje föräldrer hjälper till med sådant som behöver göras under årets gång (styrelsemedlemmar ingår inte här).        </p>
         <h2 className={`${caveat.className} text-2xl py-5`}>Arbetsdagar</h2>
         <p>
-        Två gånger om året utförs arbetsdagar, en gång på våren ochn en på hösten. Här utförs ett grovstäd både inne och ute samt lagar eller fixar saker vid behov. Här drar alla föräldrar sitt står till stacken samtidigt som vi spenderar lite trevlig tid tillsammans. I pauserna är det lite lunch och fika där vi kan lära känna varandra lite mer.
-        </p>
+        Två gånger om året utförs arbetsdagar, en gång på våren och en gång på hösten. På arbetsdagarna städar vi mer grundligt både inne och ute, lagar och byter ut sådant som gått sönder och ser till att miljön är fräsch och fin i allmänhet. Här drar alla föräldrar sitt strå till stacken samtidigt som vi spenderar tid tillsammans, äter, fikar och lär känna varandra bättre.        </p>
         <h2 className={`${caveat.className} text-2xl py-5`}>Städ</h2>
         <p>
-        Giraffens lokaler följer ett städschema på tisdagar och torsdagar, där föräldrar ligger på rullande schema (styrelsefamiljer ingår vanligtvis inte här).
-
+        Den huvudsakliga städningen i Giraffens lokaler sköts av oss vårdnadshavare, tisdagar och torsdagar efter stängning. Varje förälder tilldelas ett antal pass per termin enligt ett rullande schema. Ett visst dagligt städ sköts även av personalen.  
         </p>
         </div>	
         <div className='md:w-1/2'>
