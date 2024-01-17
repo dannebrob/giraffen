@@ -40,7 +40,7 @@ export const Hero = () => {
                 <li>En egen kock som lagar maten i från grunden och i möjligaste mån närodlade och ekologiska råvaror.</li>
                 <li>Möjlighet till insyn och hög delaktighet.</li>
             </ul>
-            <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white md:w-64 mt-5 ${caveat.className}`}>Ställ ditt barn i kö</Link>
+            <Link href="/kontakt" className={`p-2 bg-green w-52 m-3 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
             </div>
         </div>
     </section>
