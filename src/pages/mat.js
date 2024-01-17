@@ -21,7 +21,7 @@ export default function Mat() {
     <>
      <>
       <TopHead />
-      <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
+      <main className='bg-sand flex flex-col md:flex-row md:justify-start '>
         <div className='mx-10 md:w-1/2 py-10'>
           <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Mat</h1>
           <p className='pb-4'>Giraffen har en egen kock som lagar mat från grunden och i möjligaste mån med ekologiska och närproducerade råvaror. Under sommarhalvåret har vi lyxen att få grönsaksleverans från Hemsjö köksträdgård. Veckomenyn varierar, det bjuds på fisk minst en gång i veckan, matiga soppor, husmanskost och olika vegetariska rätter.
