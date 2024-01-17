@@ -64,7 +64,6 @@ export default function Personalen() {
       </div>
        
     </main>
-    <Display />
     <Photos />
     <Footer />
   </>

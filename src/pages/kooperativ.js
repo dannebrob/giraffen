@@ -54,7 +54,6 @@ export default function Kooperativ() {
       /> 
         </div>
     </main>
-    <Display />
     <Photos />
     <Footer />
   </>

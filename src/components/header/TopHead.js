@@ -32,7 +32,7 @@ export const TopHead = () => {
                 <ul className='flex font-medium text-lg items-center'>
               <Link href="/kontakt" className={`bg-green rounded-md p-2 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
                     <li className='p-2'>
-                    <Link href={'/lokalerna'}><li className='p-2'>Miljön</li></Link>
+                    <Link href={'/miljo'}><li className='p-2'>Miljön</li></Link>
                     </li>
                     <li className='p-2'>
                         <Link href="/kooperativ">Föräldrakooperativ</Link>
@@ -94,7 +94,7 @@ export const TopHead = () => {
          </div>
         <nav className='pt-24 w-full text-center text-3xl font-medium'>
           <ul>
-            <Link href={'/lokalerna'}><li className='p-5'>Miljö</li></Link>
+            <Link href={'/miljo'}><li className='p-5'>Miljö</li></Link>
             <Link href={'/kooperativ'}><li className='p-5'>Föräldrakooperativ</li></Link>
             <Link href={'/pedagogik'}><li className='p-5'>Pedagogik</li></Link>
             <Link href={'/kontakt'}><li className='p-5'>Kontakt</li></Link>

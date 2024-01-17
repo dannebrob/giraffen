@@ -28,13 +28,13 @@ export const Item4 = () => {
             </div>
             <div className='md:w-6/12'> 
             <div className='flex flex-col p-4'>
-                <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Lokalerna</h2>
+                <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Ute- och innemiljön</h2>
                 <p>Huset är beläget på en höjd vid sjön Lillelången med tillgång till egen strand och skog inpå knutarna. 
                 Huset ligger med promenadavstånd till pendel och busshållplats. Föräldraföreningen hyr lokaler av BRF Nordgård i Norsesund. 
                 Personal och föräldrar har stor möjlighet till påverkan när det gäller lokalernas utformning och underhåll.
                 </p>
             </div>
-                <ReadMoreButton link={'mat'}/>
+                <ReadMoreButton link={'miljo'}/>
             </div>
     
         </div>

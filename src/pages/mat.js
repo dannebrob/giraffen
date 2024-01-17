@@ -45,7 +45,6 @@ export default function Mat() {
         /> 
           </div>
       </main>
-      <Display />
       <Photos />
       <Footer />
     </>
