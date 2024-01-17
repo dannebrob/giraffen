@@ -97,6 +97,7 @@ export const TopHead = () => {
             <Link href={'/miljo'}><li className='p-5'>Miljö</li></Link>
             <Link href={'/kooperativ'}><li className='p-5'>Föräldrakooperativ</li></Link>
             <Link href={'/pedagogik'}><li className='p-5'>Pedagogik</li></Link>
+            <Link href={'/personalen'}><li className='p-5'>Vår personal</li></Link>
             <Link href={'/kontakt'}><li className='p-5'>Kontakt</li></Link>
           </ul>
         </nav>
