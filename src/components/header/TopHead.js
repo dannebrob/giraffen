@@ -30,7 +30,6 @@ export const TopHead = () => {
          <div>
             <nav>
                 <ul className='flex font-medium text-lg items-center'>
-              <Link href="/kontakt" className={`bg-green rounded-md p-2 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
                     <li className='p-2'>
                     <Link href={'/miljo'}><li className='p-2'>Miljön</li></Link>
                     </li>
@@ -44,8 +43,12 @@ export const TopHead = () => {
                         <Link href="/personalen">Vår personal</Link>
                     </li>
                     <li className='p-2'>
+                        <Link href="/mat">Maten</Link>
+                    </li>
+                    <li className='p-2'>
                         <Link href="/kontakt">Kontakt</Link>
                     </li>
+              <Link href="/kontakt" className={`bg-green rounded-md mx-3 p-2 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
                 </ul>
             </nav>
          </div>
@@ -88,16 +91,17 @@ export const TopHead = () => {
           </svg>
         </button>
         <div className="flex flex-col aline-end max-w-fit">
-        <div className='w-screen flex justify-center'>
-        <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+          <div className='w-screen flex justify-center'>
+          <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+          </div>
         </div>
-         </div>
         <nav className='pt-24 w-full text-center text-3xl font-medium'>
           <ul>
             <Link href={'/miljo'}><li className='p-5'>Miljö</li></Link>
             <Link href={'/kooperativ'}><li className='p-5'>Föräldrakooperativ</li></Link>
             <Link href={'/pedagogik'}><li className='p-5'>Pedagogik</li></Link>
             <Link href={'/personalen'}><li className='p-5'>Vår personal</li></Link>
+            <Link href={'/mat'}><li className='p-5'>Maten</li></Link>
             <Link href={'/kontakt'}><li className='p-5'>Kontakt</li></Link>
           </ul>
         </nav>

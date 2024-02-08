@@ -25,18 +25,28 @@ export default function Miljo() {
       <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
         <div className='mx-10 md:w-1/2 py-10'>
           <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Ute och inne-miljö</h1>
-          <h2 className='text-3xl'>Innemiljö</h2>
-          <p className='pb-4'>Föräldraföreningen hyr sina lokaler av BRF Nordgård, vilka är belägna i samma byggnad som föreningens lägenheter. Personal och föräldrar har stor möjlighet till påverkan när det gäller lokalernas utformning och underhåll.</p>
+          <h2 className='text-3xl'>Inne</h2>
+          <p className='pb-4'>Föräldraföreningen hyr sina lokaler av BRF Nordgård och förskolan finns i samma byggnad
+          som föreningens lägenheter. Personal och föräldrar har stor möjlighet att påverka lokalernas
+          utformning och underhåll i samarbete med BRF:en.</p>
           <p className='pb-4'>
-          I förskolans centrum som innefattar läs- och myshörna, samlingshörna, en större golvyta för legobygge m.m. Där finns även flera stora bord som används både vid måltider och vid pyssel. I anslutning finns två ytterligare rum för lek, kreativ verksamhet och vila samt ett kök där förskolans kock tillreder alla måltider. I husets entré har barnen ett skåp till sina ytterkläder samt ett torkrum. Där har förskolan även ett rum som både används till vila för de minsta samt till pedagogisk verksamhet av olika slag.  
-            </p>
+          I förskolans mest centrala rum finns läs- och myshörna, plats för samlingen, en större golvyta
+          för till exempel legobygge eller bygge med klossar och en öppen spis (som vi visserligen inte
+          eldar i). Där finns även flera stora bord som används både vid måltider och vid pyssel. I
+          anslutning finns ytterligare två rum för lek, kreativ verksamhet och vila, ett kök där förskolans
+          kock tillreder alla måltider, samt skötrum med toalett. I husets entré har barnen skåp till sina
+          ytterkläder, det finns toalett och ett torkrum. På entréplan har förskolan även ett rum som
+          används både till vila för de minsta och till pedagogisk verksamhet av olika slag.            </p>
           <p className='pb-4'>
           Tyvärr är förskolans lokaler inte rullstolsanpassade
             </p>
-          <h2 className='text-3xl'>Utemiljö</h2>
+          <h2 className='text-3xl'>Ute</h2>
           <p className='pb-4'>
-          Huset är beläget på en höjd vid sjön Lillelången i Norsesund, med tillgång till egen strand och skog inpå knutarna. Giraffens gård finns i direkt anslutning till verksamheten och består av lekplats, sandlåda och gräsplan. Strax ovanför lekplatsen finns ett skogsparti med balansgång, flera trädkojor samt en grillplats. I förskolans skog tränas barnens motorik och nyfikenhet för naturen väcks till liv. I dessa  härliga utomhusmiljöer vistas barn och pedagoger dagligen. 
-          </p>
+          Huset är beläget på en höjd vid sjön Lillelången i Norsesund, med tillgång till egen strand och
+          skog inpå knutarna. Giraffens gård finns i direkt anslutning till byggnaden och består av
+          lekplats, sandlåda och gräsplan. Strax ovanför lekplatsen finns ett skogsparti med balansgång,
+          flera trädkojor samt en grillplats. I förskolans skog tränas barnens motorik och nyfikenhet för
+          naturen väcks till liv. I dessa härliga utomhusmiljöer vistas barnen och pedagogerna dagligen.          </p>
           <p className='pb-4'>
           Huset ligger på promenadavstånd till pendeltåg och busshållplats.
             </p>

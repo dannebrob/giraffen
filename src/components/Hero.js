@@ -25,20 +25,25 @@ export const Hero = () => {
             <div className='flex flex-col text-center px-8 md:w-1/2 items-center'>
             <h1 className={`${caveat.className} text-5xl py-8`}>Om giraffen</h1>
             
-            <p className=''>
-            Förskolan Giraffen är benägen i en skogsglänta med utsikt över sjön Lillelången i natursköna Norsesund. 
-            Förskolan drivs som ett föräldrakooperativ och är en icke vinstdrivande förening. 
-            Giraffen har plats för 19 barn mellan 1 - 6 år. 
-            Gruppen delas upp i lillagruppen 1-3 år och storagruppen 4-6 år under tematider, annars vistas barnen tillsammans.
+            <p className>
+            Hos oss finns tiden för omsorg om barn. Genom våra pedagogers och vårdnadshavares
+            närvaro och engagemang för vår relativt lilla grupp barn ger vi barnen goda förutsättningar
+            att känna sig trygga, sedda och inspirerade i den miljö de befinner sig under dagarna.
+            Dessutom är vår utemiljö otroligt vacker och våra omgivningar inspirerande i sig!
 
             </p>
 
             <p className='pt-4 font-bold'>Hos Giraffen får du:</p>
             <ul>
-                <li>• Kompetent, engagerad personal med barnet i fokus.</li>
-                <li>• Ett fokus på natur, miljö och där barnen aktiveras med daglig utevistelse med lek, skogsutflykter etc.</li>
-                <li>• En egen kock som lagar maten i från grunden och i möjligaste mån närodlade och ekologiska råvaror.</li>
-                <li>• Möjlighet till insyn och hög delaktighet.</li>
+                <li>• Liten barngrupp</li>
+                <li>• Hög personaltäthet</li>
+                <li>• Kvalitetssäkrat pedagogiskt arbete</li>
+                <li>• Fantastisk utemiljö</li>
+                <li>• Mat som lagas på plats</li>
+                <li>• Stort engagemang för barnen</li>
+                <li>• Genomsyrande gemenskap och delaktighet</li>
+                <li>• Insyn i verksamheten</li>
+                <li>• Miljö- och hållbarhetstänk</li>
             </ul>
             <Link href="/kontakt" className={`p-2 bg-green w-52 m-3 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
             </div>
