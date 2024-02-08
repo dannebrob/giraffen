@@ -23,7 +23,7 @@ export default function Personalen() {
 
     const personal = [
         {name: 'Johanna', title: 'Rektor/Förskolelärare', image: johanna, text: 'Några väl valda ord om Johanna', color: 'bg-[#3a86ff]'},
-        {name: 'Anna', title: 'Förskollärare', image: anna, text: 'Några väl valda ord om Anna', color: 'bg-[#8338ec]'},
+        {name: 'Anna', title: 'Förskollärare', image: anna, text: 'Anna har en förskolelärar examen från tyskland. Hon jobbar mycket med den pedagosk', color: 'bg-[#8338ec]'},
         {name: 'Alia', title: 'Barnskötare', image: alia, text: 'Några väl valda ord om Alia', color: 'bg-[#ff006e]'},
         {name: 'Andrew', title: 'Barnskötare/Kock', image: andrew, text: 'Ansvarig för matlagningen på Giraffen och gillar att involvera barnen i tillagningen på ett pedagogiskt sätt', color: 'bg-[#fb5607]'},
     ]
@@ -56,7 +56,7 @@ export default function Personalen() {
                 <div className='px-4 bg-lightSand py-5 rounded-lg'>
                 <h2 className=''>{person.name}</h2>
                 <h3 className='font-bold pb-3'>{person.title}</h3>
-                <p>{person.text}</p>
+                {/* <p>{person.text}</p> */}
                 </div>
               </div>	)})}
         </div>

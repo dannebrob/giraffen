@@ -12,28 +12,19 @@ const caveat = Caveat({
 
 const accordionData = [
     {
-      title: 'Fråga 1 utemiljö',
-      content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-      laborum cupiditate possimus labore, hic temporibus velit dicta earum
-      suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-      voluptatem.`,
-      tag: 'utemiljo'
+      title: 'Hur stora är barngrupperna hos er?',
+      content: `Vi strävar efter att ha en barngrupp om max 20 barn på förskolan. Vi har även en hög personaltäthet för att kunna ge varje barn den omsorg och trygghet de behöver. Läs mer om våran pedagogik via länken nedan `,
+      tag: 'pedagogik'
     },
     {
-      title: 'Fråga 2 Mat',
-      content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-      reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-      quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-      pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-      quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-      Repudiandae, mollitia id reprehenderit a ab odit!`,
+      title: 'Serverar ni ekologisk mat?',
+      content: `Ja, vi serverar ekologisk mat på förskolan i möjligaste mån, beroede på sässong och ursprung. Vi har även ett sambetemed en lokal odlare i Hemsjö som varje vecka under odlings sässong leverear färska grönsker till oss. Vi har även en egen kock som lagar maten från grunden. Läs mer om våran mat via länken nedan`,
       tag: 'mat'
     },
     {
-      title: 'Fråga 3 ingen länk',
-      content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-      quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-      dolor ut sequi minus iste? Quas?`
+      title: 'Hur ser en vanlig dag ut på förskolan?',
+      content: `En vanlig dag på förskolan ser ut så här: Frukost serveras kl 07:30-08:00, därefter leker vi fram till kl 09:00 då vi har en aktivitet i grupper eller utelek. Kl 10:45 har vi samling och därefter serveras lunch kl 11:00-11:30. Efter lunchen har vi en vilan och lugn lek fram till kl 12:30 då vi har frilek inne eller ute. Kl 14:00 serveras mellanmål och därefter leker vi fram till att barnen hämtas.
+      `,
     }
   ];
 

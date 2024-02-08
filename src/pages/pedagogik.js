@@ -4,7 +4,8 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/IMG_11.jpg'
+import item1 from '@/assets/IMG_8.jpg'
+import item2 from '@/assets/IMG_4.jpg'
 import { Display } from '@/components/display/Display'
 import { Photos } from '@/components/photos/Photos'
 
@@ -19,7 +20,7 @@ export default function Pedagogik() {
   return (
     <>
     <TopHead />
-    <main className='bg-sand flex flex-col md:flex-row md:justify-start items-center py-10'>
+    <main className='bg-sand flex flex-col md:flex-row md:justify-start py-10'>
       <div className='mx-10 md:w-1/2'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Den pedagogiska verksamheten</h1>
         <p className='font-bold pb-4'>
@@ -81,12 +82,19 @@ export default function Pedagogik() {
         </div>	
         <div className='md:w-1/2'>
       <Image
-          src={item}
+          src={item1}
           alt="kids playing" 
           width={800}
           height={800}
           className="w-full p-10"
       /> 
+        <Image
+            src={item2}
+            alt="kids playing" 
+            width={800}
+            height={800}
+            className="w-full p-10"
+        />
         </div>
     </main>
     <Photos />

@@ -4,7 +4,10 @@ import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
 
-import item from '@/assets/IMG_11.jpg'
+import item1 from '@/assets/lekplats.jpg'
+import item2 from '@/assets/skog.jpg'
+import item3 from '@/assets/strand.jpg'
+
 import { Display } from '@/components/display/Display'
 import { Photos } from '@/components/photos/Photos'
 
@@ -19,7 +22,7 @@ export default function Miljo() {
   return (
     <>
       <TopHead />
-      <main className='bg-sand flex flex-col md:flex-row md:justify-start  items-center'>
+      <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
         <div className='mx-10 md:w-1/2 py-10'>
           <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Ute och inne-miljö</h1>
           <h2 className='text-3xl'>Innemiljö</h2>
@@ -39,13 +42,29 @@ export default function Miljo() {
             </p>
           </div>	
           <div className='md:w-1/2 '>
-        <Image
-            src={item}
-            alt="kids playing" 
+       
+  
+         <Image
+            src={item1}
+            alt="Lekplatsen som ligger i anslutning till förskolan" 
             width={800}
             height={800}
             className="w-full p-10"
         /> 
+          <Image
+              src={item2}
+              alt="Skogen bakom förskolan" 
+              width={800}
+              height={800}
+              className="w-full p-10"
+          />
+          <Image
+              src={item3}
+              alt="Våran vakra strand, nedanför förskolan" 
+              width={800}
+              height={800}
+              className="w-full p-10"
+          />
           </div>
       </main>
       <Photos />
