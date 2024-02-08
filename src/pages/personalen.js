@@ -35,11 +35,22 @@ export default function Personalen() {
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Vår fantastiska personal</h1>
         <div className='flex flex-wrap justify-center'>
         <p className='pb-4'>
-        Giraffens personalgrupp består av rektor/förskollärare, förskolelärare, barnskötare och kock. Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning och pedagogisk inspiration. Verksamhetens litenhet och närhet mellan barn, föräldrar och personal skapar en lugn och trygg miljö för barnen och en positiv arbetsplats.
-
+        Giraffens personalgrupp består av rektor/förskollärare, förskolelärare, barnskötare och kock.
+        Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning
+        och pedagogisk inspiration. Som arbetsgivare vill vi stötta personalen att utveckla den form av
+        pedagogisk verksamhet som de själva finner glädje och trygghet i – då tror vi att barnen också
+        känner sig trygga. Vi gläds över att våra pedagoger berikar barnens lärande genom att bjuda
+        in att delta i aktiviteter som de själva finner glädje och engagemang i, så som matlagning och
+        att utforska och vistas i naturen. Två av våra pedagoger är certifierade inom ledarskap i
+        naturen vilket berikar och möjliggör vår utevistelse.
         </p>
         <p className='pb-4'>
-        Grunden för verksamheten är att barnen ska känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar aktivt med värdegrundsfrågor.
+        Verksamhetens litenhet och närhet mellan barn, föräldrar och personal skapar en lugn och
+        trygg miljö för barnen och en positiv arbetsplats. Grunden för verksamheten är att barnen ska
+        känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom
+        vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett
+        positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar
+        aktivt med värdegrundsfrågor.        ¨
         </p>
         <div className='py-10 md:flex md:flex-wrap justify-center'>
          { personal.map((person) => { 
