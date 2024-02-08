@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import Image from 'next/image';
 
-// Import the images
-import image1 from '@/assets/skog.jpg';
-import image2 from '@/assets/strand.jpg';
-import image3 from '@/assets/lekplats.jpg';
-import image4 from '@/assets/IMG_11.jpg';
+// Import the images (important to make images 1080x1080px for best results)
+import image1 from '@/assets/smet.jpg';
+import image2 from '@/assets/färg-lek.jpg';
+import image3 from '@/assets/barn-promenad.jpg';
+import image4 from '@/assets/barn-sittande.jpg';
+import image5 from '@/assets/pärlplatta.jpg';
 import arrowForward from '@/assets/arrow_forward.svg';
 import arrowBack from '@/assets/arrow_back.svg';
 
@@ -14,14 +15,16 @@ import arrowBack from '@/assets/arrow_back.svg';
 const ImageCarousel = () => {
   // The array of images and their alt texts
   const images = [
-    { src: image1, alt: 'First image' },
-    { src: image2, alt: 'Second image' },
-    { src: image3, alt: 'Third image' },
-    { src: image4, alt: 'Fourth image' },
+    { src: image1, alt: 'Barn bakar en smet' },
+    { src: image2, alt: 'Barn leker med färg' },
+    { src: image3, alt: 'Barn promenerar' },
+    { src: image4, alt: 'Barn undersöker' },
+    { src: image5, alt: 'En pärlplatta' },
   ];
 
   // The index of the current image
-  const [index, setIndex] = useState(0);
+  // Use a random integer as the initial index
+  const [index, setIndex] = useState(Math.floor(Math.random() * images.length));
 
   // The function to go to the next image
   const next = () => {
