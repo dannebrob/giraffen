@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
+
 import { Caveat } from 'next/font/google'
 import {Logo} from '../header/Logo'
 
@@ -17,61 +19,62 @@ export const TopHead = () => {
         setIsOpen(old => !old);
         console.log('clicked!');
     }
+    const pathname = usePathname()
 
   return (
     <>
     {!isOpen ?
-    <section className="w-full bg-lightBlue flex justify-between items-center" >
-    <Logo/>
-    <div className="flex flex-col aline-end max-w-fit">
-        
+     <section className="w-full bg-lightBlue flex justify-between items-center" >
+     <Logo/>
+     <div className="flex flex-col aline-end max-w-fit">
+         
+          </div>
+       <div className='pr-8 w-max hidden md:block'>
+          <div>
+             <nav>
+                 <ul className='flex font-medium text-lg items-center'>
+                     <li className='p-2'>
+                     <Link href='/miljo' className={pathname === '/miljo' ? 'p-2 font-bold underline' : 'p-2'}><li>Miljön</li></Link>                     
+                     </li>
+                     <li className='p-2'>
+                         <Link href='/kooperativ' className={pathname === '/kooperativ' ? 'p-2 font-bold underline' : 'p-2'}><li>Föräldrakooperativ</li></Link>
+                     </li>
+                     <li className='p-2'>
+                         <Link href='/pedagogik' className={pathname === '/pedagogik' ? 'p-2 font-bold underline' : 'p-2'}><li>Pedagogik</li></Link>
+                     </li>
+                     <li className='p-2'>
+                         <Link href='/personalen' className={pathname === '/personalen' ? 'p-2 font-bold underline' : 'p-2'}><li>Vår personal</li></Link>
+                     </li>
+                     <li className='p-2'>
+                         <Link href='/mat' className={pathname === '/mat' ? 'p-2 font-bold underline' : 'p-2'}><li>Maten</li></Link>
+                     </li>
+                     <li className='p-2'>
+                         <Link href='/kontakt' className={pathname === '/kontakt' ? 'p-2 font-bold underline' : 'p-2'}><li>Kontakt</li></Link>
+                     </li>
+               <Link href='/kontakt' className={`bg-green rounded-md mx-3 p-2 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+                 </ul>
+             </nav>
+          </div>
+     </div>
+     <div className='md:hidden pr-5'>
+         <button onClick={toggle}>
+                     <svg
+             className='w-8 h-8'
+             fill='none'
+             stroke='currentColor'
+             viewBox='0 0 24 24'
+             xmlns='http://www.w3.org/2000/svg'
+           >
+             <path
+               strokeLinecap='round'
+               strokeLinejoin='round'
+               strokeWidth={2}
+               d='M4 6h16M4 12h16M4 18h16'
+             />
+           </svg>
+         </button>
          </div>
-      <div className='pr-8 w-max hidden md:block'>
-         <div>
-            <nav>
-                <ul className='flex font-medium text-lg items-center'>
-                    <li className='p-2'>
-                    <Link href={'/miljo'}><li className='p-2'>Miljön</li></Link>
-                    </li>
-                    <li className='p-2'>
-                        <Link href="/kooperativ">Föräldrakooperativ</Link>
-                    </li>
-                    <li className='p-2'>
-                        <Link href="/pedagogik">Pedagogik</Link>
-                    </li>
-                    <li className='p-2'>
-                        <Link href="/personalen">Vår personal</Link>
-                    </li>
-                    <li className='p-2'>
-                        <Link href="/mat">Maten</Link>
-                    </li>
-                    <li className='p-2'>
-                        <Link href="/kontakt">Kontakt</Link>
-                    </li>
-              <Link href="/kontakt" className={`bg-green rounded-md mx-3 p-2 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
-                </ul>
-            </nav>
-         </div>
-    </div>
-    <div className='md:hidden pr-5'>
-        <button onClick={toggle}>
-                    <svg
-            className='w-8 h-8'
-            fill='none'
-            stroke='currentColor'
-            viewBox='0 0 24 24'
-            xmlns='http://www.w3.org/2000/svg'
-          >
-            <path
-              strokeLinecap='round'
-              strokeLinejoin='round'
-              strokeWidth={2}
-              d='M4 6h16M4 12h16M4 18h16'
-            />
-          </svg>
-        </button>
-        </div>
-    </section>
+     </section>
     : <section className="w-screen bg-lightBlue flex flex-col items-end  h-screen">
     
        <button onClick={toggle}>
