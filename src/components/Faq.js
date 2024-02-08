@@ -13,18 +13,27 @@ const caveat = Caveat({
 const accordionData = [
     {
       title: 'Hur stora är barngrupperna hos er?',
-      content: `Vi strävar efter att ha en barngrupp om max 20 barn på förskolan. Vi har även en hög personaltäthet för att kunna ge varje barn den omsorg och trygghet de behöver. Läs mer om våran pedagogik via länken nedan `,
+      content: `Vi har endast en barngrupp
+      om max 20 barn på förskolan. Vi har hög personaltäthet för att kunna ge varje barn den
+      omsorg och trygghet de behöver. Läs mer om vår pedagogik via länken nedan.`,
       tag: 'pedagogik'
     },
     {
       title: 'Serverar ni ekologisk mat?',
-      content: `Ja, vi serverar ekologisk mat på förskolan i möjligaste mån, beroede på sässong och ursprung. Vi har även ett sambetemed en lokal odlare i Hemsjö som varje vecka under odlings sässong leverear färska grönsker till oss. Vi har även en egen kock som lagar maten från grunden. Läs mer om våran mat via länken nedan`,
+      content: `Ja, vi serverar ekologisk mat på förskolan i möjligaste mån men med hänsyn till säsong, pris
+      och ursprung för de råvaror vi köper in. Vi har även samarbete med en lokal odlare i Hemsjö
+      
+      som varje vecka under odlingssäsong levererar färska råvaror till! En av våra anställda är
+      kock och lagar maten från grunden varje dag. Läs mer om vår mat via länken nedan.`,
       tag: 'mat'
     },
     {
       title: 'Hur ser en vanlig dag ut på förskolan?',
-      content: `En vanlig dag på förskolan ser ut så här: Frukost serveras kl 07:30-08:00, därefter leker vi fram till kl 09:00 då vi har en aktivitet i grupper eller utelek. Kl 10:45 har vi samling och därefter serveras lunch kl 11:00-11:30. Efter lunchen har vi en vilan och lugn lek fram till kl 12:30 då vi har frilek inne eller ute. Kl 14:00 serveras mellanmål och därefter leker vi fram till att barnen hämtas.
-      `,
+      content: `En vanlig dag på förskolan ser ut så här: Frukost serveras kl 07:30-08:00. Därefter leker vi
+      fram till kl 09:00 då vi har aktivitet/temaarbete i grupper eller utelek. Kl 10:45 har vi samling
+      och därefter serveras lunch kl 11:00-11:30. Efter lunchen har vi vilostund, bokläsning och lugn
+      lek fram till kl 12:30 då vi har fri lek/aktivitet inne eller ute. Kl 14:00 serveras mellanmål och
+      därefter leker vi fram till att barnen hämtas.`,
     }
   ];
 

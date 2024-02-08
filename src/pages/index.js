@@ -7,6 +7,7 @@ import { Hero } from '@/components/Hero'
 import { Display } from '@/components/display/Display'
 import { Faq } from '@/components/Faq'
 import { Photos } from '@/components/photos/Photos'
+import ImageCarousel from '@/components/photos/ImageCarousel'
 
 
 export default function Home() {
@@ -18,7 +19,7 @@ export default function Home() {
       <Display />
       <Faq />
       </main>
-      <Photos />
+      <ImageCarousel />
       <Footer />
     </>
   )
