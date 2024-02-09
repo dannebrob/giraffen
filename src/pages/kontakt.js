@@ -1,11 +1,10 @@
 import { useState } from 'react'
-import Image from 'next/image'
+
 import Link from 'next/link'
-import { Inter } from 'next/font/google'
 import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
-import { Photos } from '@/components/photos/Photos'
+import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -71,7 +70,7 @@ export default function Kontakt() {
       </div>
     </section>
      
-     <Photos />
+     <ImageCarousel />
       <Footer />
     </>
   )

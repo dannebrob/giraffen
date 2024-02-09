@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
 import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
@@ -8,9 +7,7 @@ import andrew from '@/assets/andrew.png'
 import johanna from '@/assets/johanna.png'
 import alia from '@/assets/alia.png'
 
-import item from '@/assets/IMG_11.jpg'
-import { Display } from '@/components/display/Display'
-import { Photos } from '@/components/photos/Photos'
+import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -75,7 +72,7 @@ export default function Personalen() {
       </div>
        
     </main>
-    <Photos />
+    <ImageCarousel />
     <Footer />
   </>
   )

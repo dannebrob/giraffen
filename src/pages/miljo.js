@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Inter } from 'next/font/google'
+
 import { Caveat } from 'next/font/google'
 import {TopHead} from '@/components/header/TopHead'
 import {Footer} from '@/components/footer/Footer'
@@ -8,8 +8,7 @@ import item1 from '@/assets/lekplats.jpg'
 import item2 from '@/assets/skog.jpg'
 import item3 from '@/assets/strand.jpg'
 
-import { Display } from '@/components/display/Display'
-import { Photos } from '@/components/photos/Photos'
+import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -77,7 +76,7 @@ export default function Miljo() {
           />
           </div>
       </main>
-      <Photos />
+      <ImageCarousel />
       <Footer />
     </>
   )

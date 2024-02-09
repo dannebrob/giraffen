@@ -6,8 +6,7 @@ import {Footer} from '@/components/footer/Footer'
 
 import item1 from '@/assets/IMG_8.JPG'
 import item2 from '@/assets/IMG_4.JPG'
-import { Display } from '@/components/display/Display'
-import { Photos } from '@/components/photos/Photos'
+import ImageCarousel from '@/components/photos/ImageCarousel'
 
 const caveat = Caveat({
   subsets: ['latin'],
@@ -108,7 +107,7 @@ export default function Pedagogik() {
         />
         </div>
     </main>
-    <Photos />
+    <ImageCarousel />
     <Footer />
   </>
   )
