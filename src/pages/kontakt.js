@@ -52,20 +52,20 @@ export default function Kontakt() {
       <form onSubmit={onSubmit} className='flex flex-col p-10 md:px-52'>
       <input type="checkbox" name="botcheck" className='hidden' />
       <input type="hidden" name="from_name" value="Giraffen hemsida - Kontakt"></input>
-        <label>Mitt namn</label>
+        <label>Namn</label>
         <input type="text" name="name"/>
-        <label>Mitt telefonnummer</label>
+        <label>Telefonnummer</label>
         <input type="text" name="phone"/>
         
-        <label>Min epost</label>
+        <label>E-post</label>
         <input type="email" name="email"/>
-        <label>Mitt meddelande</label>
+        <label>Meddelande</label>
         <textarea name="message"></textarea>
       <span className='text-green-800'>{result}</span>
         
         <input type="submit" className={`p-2 mt-10 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}/>
       </form>
-      <p className='text-center p-5'>Psst, vill du jobba hos oss? Kolla gärna våra lediga tjänster <Link href={'/jobb'} >Här</Link></p>
+      <p className='text-center p-5'>Psst, vill du jobba hos oss? Kolla gärna våra lediga tjänster <Link href={'/jobb'} >här</Link></p>
       </div>
       </div>
     </section>
