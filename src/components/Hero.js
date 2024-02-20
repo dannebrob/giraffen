@@ -22,8 +22,8 @@ export const Hero = () => {
           <div className='w-full md:w-1/2'>
             <Image width={800} height={800} alt='Förskolan giraffen' src={heroImg.src} className='w-full h-full'/>
         </div>
-            <div className='flex flex-col text-center px-8 md:w-1/2 items-center'>
-            <h1 className={`${caveat.className} text-5xl py-8`}>Om Giraffen</h1>
+            <div className='flex flex-col px-8 md:w-1/2'>
+            <h1 className={`${caveat.className} text-5xl py-8 text-center`}>Om Giraffen</h1>
             
             <p className>
             Hos oss finns tiden för omsorg om barn. Genom våra pedagogers och vårdnadshavares
@@ -46,7 +46,7 @@ export const Hero = () => {
                 <li>• Miljö- och hållbarhetstänk</li>
             </ul>
             </div>
-            <Link href="/kontakt" className={`p-2 bg-green w-52 m-3 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
+            <Link href="/kontakt" className={`p-2 bg-green w-52 my-3 text-center rounded-lg text-2xl text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
             </div>
         </div>
     </section>
