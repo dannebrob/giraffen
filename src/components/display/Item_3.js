@@ -29,7 +29,11 @@ export const Item3 = () => {
         <div className='md:w-6/12 pl-4'> 
         <div className='flex flex-col p-4'>
             <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Hög personaltäthet</h2>
-            <p>Vi är en engagerad personalgrupp som består av rektor, förskolelärare, barnskötare och kock. Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning och pedagogisk inspiration. Verksamhetens litenhet och närhet mellan barn, föräldrar och personal skapar en lugn och trygg miljö för barnen och en positiv arbetsplats.
+            <p>
+            Vi är en engagerad personalgrupp som består av rektor, förskollärare, barnskötare och kock. 
+            Föräldraföreningen arbetar för att personalen kontinuerligt ska ges möjligheter till utbildning 
+            och pedagogisk inspiration. Verksamhetens litenhet och närhet mellan barn, föräldrar och personal 
+            skapar en lugn och trygg miljö för barnen och en positiv arbetsplats.
             </p>
           
         </div>

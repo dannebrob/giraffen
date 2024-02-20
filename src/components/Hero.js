@@ -39,8 +39,8 @@ export const Hero = () => {
             Det sker i mindre grupper vilket främjar möjligheten till koncentration och förmågan att fokusera.
             </p>
             <div className={`${caveat.className}`}>
-            <p className='pt-4 font-bold text-start'>På Giraffen har vi:</p>
-            <ul className='text-start'>
+            <p className='pt-4 font-bold text-start text-lg'>På Giraffen har vi:</p>
+            <ul className='text-start text-2xl'>
                 <li>● Liten barngrupp</li>
                 <li>● Hög personaltäthet</li>
                 <li>● Kvalitetssäkrat pedagogiskt arbete</li>

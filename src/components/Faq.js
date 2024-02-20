@@ -20,11 +20,11 @@ const accordionData = [
     },
     {
       title: 'Serverar ni ekologisk mat?',
-      content: `Ja, vi serverar ekologisk mat på förskolan i möjligaste mån men med hänsyn till säsong, pris
-      och ursprung för de råvaror vi köper in. Vi har även samarbete med en lokal odlare i Hemsjö
-      
-      som varje vecka under odlingssäsong levererar färska råvaror till! En av våra anställda är
-      kock och lagar maten från grunden varje dag. Läs mer om vår mat via länken nedan.`,
+      content: `Ja, vi serverar ekologisk mat på förskolan i möjligaste mån men med hänsyn 
+      till säsong, pris och ursprung för de råvaror vi köper in. Vi har även samarbete med 
+      en lokal odlare i Hemsjö som varje vecka under odlingssäsong levererar färska råvaror 
+      till oss! En av våra anställda är kock och lagar maten från grunden varje dag. 
+      Läs mer om vår mat via länken nedan.`,
       tag: 'mat'
     },
     {

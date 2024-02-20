@@ -29,7 +29,11 @@ export const Item2 = () => {
         <div className='md:w-6/12'> 
         <div className='flex flex-col p-4'>
             <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Maten</h2>
-            <p>Vi har en egen kock som lagar mat från grunden och i möjligaste mån med ekologiskt, kravodlat och från närproducerade råvaror. På somrarna har vi lyxen att få leverans från ….. nära förskolan. Veckomenyn varierar, det bjuds på fisk minst en gång i veckan, matiga soppor, husmanskost och olika vegitariskt rätter. 
+            <p>
+            Giraffen har en egen kock som lagar mat från grunden och i möjligaste mån med 
+            ekologiska och närproducerade råvaror. Under sommarhalvåret har vi lyxen att få 
+            grönsaksleverans från Hemsjö köksträdgård. Maten är även en del av den pedagogiska
+             verksamheten. Det skapar nyfikenhet och förståelse för matens ursprung och betydelse.
             </p>
         </div>
             <ReadMoreButton link={'mat'}/>
