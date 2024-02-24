@@ -18,7 +18,7 @@ export default function Kooperativ() {
     <>
     <TopHead />
     <main className='bg-sand flex flex-col md:flex-row md:justify-start items-center pt-20'>
-      <div className='mx-10 md:w-1/2 py-10'>
+      <div className='mx-10 md:w-1/2 pb-10'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Föräldrakooperativ</h1>
         <p>
         Förskolan drivs av ett icke vinstdrivande föräldrakooperativ, vilket innebär att det är vi vårdnadshavare som 
