@@ -6,8 +6,6 @@ import { Attention } from './header/Attention'
 import Image from 'next/image'
 import heroImg from '@/assets/IMG_11.jpg'
 
-
-
 const caveat = Caveat({
     subsets: ['latin'],
     weight: ['400'],
