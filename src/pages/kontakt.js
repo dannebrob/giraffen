@@ -65,7 +65,7 @@ export default function Kontakt() {
         
         <input type="submit" className={`p-2 mt-10 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}/>
       </form>
-      <p className='text-center p-5'>Psst, vill du jobba hos oss? Kolla gärna våra lediga tjänster <Link href={'/jobb'} >här</Link></p>
+      <p className='text-center p-5'>Psst, vill du jobba hos oss? Kolla gärna våra lediga tjänster <Link href={'/jobb'} className='font-bold' >här</Link></p>
       </div>
       </div>
     </section>
