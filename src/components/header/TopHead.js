@@ -170,7 +170,8 @@ export const TopHead = () => {
         </h1>
       </div>
 
-      <ul className="hidden md:flex">
+      <ul className="hidden md:flex items-center">
+      
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -179,6 +180,7 @@ export const TopHead = () => {
             <Link href={link}>{link}</Link>
           </li>
         ))}
+        <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
       </ul>
 
       <div
