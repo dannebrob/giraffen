@@ -4,7 +4,7 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
-type HeroDocumentDataSlicesSlice = never;
+type HeroDocumentDataSlicesSlice = TestSlice;
 
 /**
  * Content for Hero documents
@@ -110,6 +110,48 @@ export type HeroRubrikDocument<Lang extends string = string> =
 
 export type AllDocumentTypes = HeroDocument | HeroRubrikDocument;
 
+/**
+ * Primary content in *Test → Primary*
+ */
+export interface TestSliceDefaultPrimary {
+  /**
+   * dsfsd field in *Test → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: sdfsdf
+   * - **API ID Path**: test.primary.dsfsd
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  dsfsd: prismic.RichTextField;
+}
+
+/**
+ * Default variation for Test Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type TestSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<TestSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *Test*
+ */
+type TestSliceVariation = TestSliceDefault;
+
+/**
+ * Test Shared Slice
+ *
+ * - **API ID**: `test`
+ * - **Description**: Test
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type TestSlice = prismic.SharedSlice<"test", TestSliceVariation>;
+
 declare module "@prismicio/client" {
   interface CreateClient {
     (
@@ -126,6 +168,10 @@ declare module "@prismicio/client" {
       HeroRubrikDocument,
       HeroRubrikDocumentData,
       AllDocumentTypes,
+      TestSlice,
+      TestSliceDefaultPrimary,
+      TestSliceVariation,
+      TestSliceDefault,
     };
   }
 }
