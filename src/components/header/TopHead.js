@@ -168,6 +168,8 @@ const pathname = usePathname()
   ];
 
 
+  console.log('pathname:', pathname);
+
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-greenDark fixed nav">
       <div>
@@ -184,7 +186,7 @@ const pathname = usePathname()
             key={id}
             className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
           >
-            <Link href={link} className={pathname === `/${link}` ? 'font-bold' : ''}>{link}</Link>
+            <Link href={link} className={pathname === '/' + link ? 'font-bold' : ''}>{link}</Link>
           </li>
         ))}
         <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
