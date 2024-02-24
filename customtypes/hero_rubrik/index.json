@@ -1,0 +1,31 @@
+{
+  "format": "custom",
+  "id": "hero_rubrik",
+  "label": "Hero Rubrik",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "config": {
+          "label": "UID"
+        },
+        "type": "UID"
+      },
+      "om_griaffen": {
+        "type": "Text",
+        "config": {
+          "label": "Om griaffen",
+          "placeholder": ""
+        }
+      },
+      "ingress": {
+        "type": "Text",
+        "config": {
+          "label": "Ingress",
+          "placeholder": "Text om giraffen"
+        }
+      }
+    }
+  }
+}
