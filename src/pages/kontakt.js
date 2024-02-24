@@ -25,7 +25,7 @@ const caveat = Caveat({
       setSubmitStatus('loading');
       const formData = new FormData(event.target);
   
-      formData.append("access_key", '25bff722-e319-4951-81b7-f22c753c87d6');
+      formData.append("access_key", '69c5f846-9c97-44a5-9ff7-b41d726d697b');
   
       try {
         const res = await fetch("https://api.web3forms.com/submit", {
