@@ -5,7 +5,6 @@ import img_1 from '@/assets/IMG_6.jpg'
 import img_2 from '@/assets/IMG_8.JPG'
 import img_3 from '@/assets/IMG_9.jpg'
 
-console.log('yes');
 export const Photos = () => {
   return (
     <div>

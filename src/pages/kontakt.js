@@ -32,10 +32,10 @@ export default function Kontakt() {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      // console.log("Success", res);
       setResult('Tack för ditt meddelande, vi återkommer så snart vi kan!');
     } else {
-      console.log("Error", res);
+      // console.log("Error", res);
       setResult('Ojdå, nu blev nog något fel, försök igen! Eller skicka ett mail till oss på: info@forskolangiraffen.se');
     }
   };
