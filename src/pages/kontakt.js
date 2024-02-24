@@ -24,7 +24,7 @@ export default function Kontakt() {
     setResult("Skickar....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", '69c5f846-9c97-44a5-9ff7-b41d726d697b');
+    formData.append("access_key", '25bff722-e319-4951-81b7-f22c753c87d6');
 
     const res = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
@@ -36,7 +36,7 @@ export default function Kontakt() {
       setResult('Tack för ditt meddelande, vi återkommer så snart vi kan!');
     } else {
       console.log("Error", res);
-      setResult('Ojdå, nu blev nog något fel, försök igen!');
+      setResult('Ojdå, nu blev nog något fel, försök igen! Eller skicka ett mail till oss på: info@forskolangiraffen.se');
     }
   };
 
