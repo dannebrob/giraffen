@@ -18,14 +18,22 @@ const caveat = Caveat({
   export default function Kontakt() {
     const [result, setResult] = useState("");
     const [submitStatus, setSubmitStatus] = useState(null);
+    const [name, setName] = useState("");
+    const [phone, setPhone] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
   
     const onSubmit = async (event) => {
       event.preventDefault();
       setResult("Skickar....");
       setSubmitStatus('loading');
-      const formData = new FormData(event.target);
+      const formData = new FormData();
   
-      formData.append("access_key", '69c5f846-9c97-44a5-9ff7-b41d726d697b');
+      formData.append("access_key", '25bff722-e319-4951-81b7-f22c753c87d6');
+      formData.append("name", name);
+      formData.append("phone", phone);
+      formData.append("email", email);
+      formData.append("message", message);
   
       try {
         const res = await fetch("https://api.web3forms.com/submit", {
@@ -37,7 +45,11 @@ const caveat = Caveat({
           console.log("Success", res);
           setResult('Tack för ditt meddelande, vi återkommer så snart vi kan!');
           setSubmitStatus('success');
-          event.target.reset();
+          // Clear the form fields
+          setName("");
+          setPhone("");
+          setEmail("");
+          setMessage("");
         } else {
           throw new Error(res.error);
         }
@@ -60,15 +72,15 @@ const caveat = Caveat({
                 <input type="checkbox" name="botcheck" className='hidden' />
                 <input type="hidden" name="from_name" value="Giraffen hemsida - Kontakt"></input>
                 <label>Namn</label>
-                <input type="text" name="name"/>
+                <input type="text" name="name" value={name} onChange={e => setName(e.target.value)}/>
                 <label>Telefonnummer</label>
-                <input type="text" name="phone"/>
+                <input type="text" name="phone" value={phone} onChange={e => setPhone(e.target.value)}/>
                 <label>E-post</label>
-                <input type="email" name="email"/>
+                <input type="email" name="email" value={email} onChange={e => setEmail(e.target.value)}/>
                 <label>Meddelande</label>
-                <textarea name="message"></textarea>
+                <textarea name="message" value={message} onChange={e => setMessage(e.target.value)}></textarea>
                 <span className=''>{result}</span>
-                <span className=''>{submitStatus}</span>
+                {/* <span className=''>{submitStatus}</span> */}
                 <input type="submit" className={`p-2 mt-10 bg-green w-36 text-center rounded-lg text-2xl text-white ${caveat.className}`}/>
               </form>
               <p className='text-center p-5'>Psst, vill du jobba hos oss? Kolla gärna våra lediga tjänster <Link href={'/jobb'} className='font-bold' >här</Link></p>
