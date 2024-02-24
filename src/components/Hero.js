@@ -17,11 +17,17 @@ const caveat = Caveat({
 export const Hero = () => {
   return (
     <section className='w-full pb-10 pt-20'>
-        <Attention />
-        <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
-          <div className='w-full md:w-1/2'>
-            <Image width={800} height={800} alt='Förskolan giraffen' src={heroImg.src} className='w-full h-full'/>
-        </div>
+    <Attention />
+    <div className='w-full flex flex-col md:flex-wrap md:flex-row '>
+      <div className='w-full md:w-1/2 relative h-64 md:h-auto'>
+        <Image 
+          layout="fill" 
+          objectFit="cover" 
+          alt='Förskolan giraffen' 
+          src={heroImg.src} 
+          className='w-full h-full'
+        />
+      </div>
             <div className='flex flex-col px-8 md:w-1/2'>
             <h1 className={`${caveat.className} text-5xl py-8 text-center`}>Om Giraffen</h1>
             
