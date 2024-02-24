@@ -13,7 +13,7 @@ export const FaqItem =  ({ title, content, tag }) => {
         </div>
         {isActive && 
         <div className='px-10 pb-6 text-white bg-greenLight active '>{content}
-          {tag && <ReadMoreButton link={tag} />}
+          {tag && <ReadMoreButton link={tag}  />}
           </div>}
     </div>
   )
