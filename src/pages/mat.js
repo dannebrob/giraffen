@@ -20,7 +20,7 @@ export default function Mat() {
     <>
      <>
       <TopHead />
-      <main className='bg-sand flex flex-col md:flex-row md:justify-start '>
+      <main className='bg-sand flex flex-col md:flex-row md:justify-start pt-20'>
         <div className='mx-10 md:w-1/2 py-10'>
           <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Mat</h1>
           <p className='pb-4'>

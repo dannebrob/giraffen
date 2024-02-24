@@ -43,7 +43,7 @@ export default function Kontakt() {
   return (
     <>
       <TopHead />
-      <section className="className='w-full pb-10 bg-sand">
+      <section className="className='w-full pb-10 bg-sand pt-20">
       <div className='w-full flex flex-col md:flex-wrap '>
       <h1 className={`text-center p-10 ${caveat.className} text-5xl py-8`}>Välkommen att kontakta oss på Giraffen</h1>
       <div className='px-10'>

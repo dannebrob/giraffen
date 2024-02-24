@@ -19,7 +19,7 @@ export default function Pedagogik() {
   return (
     <>
     <TopHead />
-    <main className='bg-sand flex flex-col md:flex-row md:justify-start py-10'>
+    <main className='bg-sand flex flex-col md:flex-row md:justify-start py-10 pt-20'>
       <div className='mx-10 md:w-1/2'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Den pedagogiska verksamheten</h1>
         <p className='font-bold pb-4'>

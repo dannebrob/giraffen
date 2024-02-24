@@ -27,7 +27,7 @@ export default function Personalen() {
   return (
     <>
     <TopHead />
-    <main className='bg-sand flex flex-col md:flex-row md:justify-start'>
+    <main className='bg-sand flex flex-col md:flex-row md:justify-start pt-20'>
       <div className='w-full md:mx-10 p-10'>
         <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Vår fantastiska personal</h1>
         <div className='flex flex-wrap justify-center'>
@@ -47,8 +47,9 @@ export default function Personalen() {
         känna sig trygga med att det finns vuxna i deras närhet som ingriper om det behövs. Genom
         vår personaltäthet skapas möjlighet att finnas nära och vara tillsammans med barnen med ett
         positivt förhållningssätt. Vi uppmuntrar barnen att säga vad de tycker och känner och arbetar
-        aktivt med värdegrundsfrågor.        ¨
+        aktivt med värdegrundsfrågor.
         </p>
+       {/*
         <div className='py-10 md:flex md:flex-wrap justify-center'>
          { personal.map((person) => { 
             return(
@@ -64,10 +65,11 @@ export default function Personalen() {
                 <div className='px-4 bg-lightSand py-5 rounded-lg'>
                 <h2 className=''>{person.name}</h2>
                 <h3 className='font-bold pb-3'>{person.title}</h3>
-                {/* <p>{person.text}</p> */}
+                {<p>{person.text}</p> }
                 </div>
               </div>	)})}
         </div>
+      */}
         </div>
       </div>
        

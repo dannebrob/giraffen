@@ -42,7 +42,7 @@ const ImageCarousel = () => {
      
       {/* The left arrow button */}
       <button
-        className="left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white rounded-r-lg z-50"
+        className="left-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-white rounded-r-lg"
         onClick={prev}
       >
         <Image
@@ -54,7 +54,7 @@ const ImageCarousel = () => {
       </button>
        {/* The current image */}
        <Image
-        className=" w-4/5 h-full rounded-lg z-0 max-w-[500px] max-h-[500px] object-cover"
+        className=" w-4/5 h-full rounded-lg max-w-[500px] max-h-[500px] object-cover"
         src={images[index].src}
         alt={images[index].alt}
         height={500}
@@ -63,7 +63,7 @@ const ImageCarousel = () => {
       />
       {/* The right arrow button */}
       <button
-        className=" right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-info rounded-l-lg z-50"
+        className=" right-0 top-1/2 transform -translate-y-1/2 bg-gray-700 text-info rounded-l-lg"
         onClick={next}
       >
         <Image 
