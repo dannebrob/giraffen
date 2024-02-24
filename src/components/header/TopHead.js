@@ -129,9 +129,14 @@ const caveat = Caveat({
   display: 'swap',
 })
 
+
+
 export const TopHead = () => {
 
+ 
   
+const pathname = usePathname()
+
     const [nav, setNav] = useState(false);
 
   const links = [
@@ -159,7 +164,9 @@ export const TopHead = () => {
       id: 6,
       link: "kontakt",
     },
+
   ];
+
 
   return (
     <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-greenDark fixed nav">
@@ -177,7 +184,7 @@ export const TopHead = () => {
             key={id}
             className="nav-links px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 hover:text-white duration-200 link-underline"
           >
-            <Link href={link}>{link}</Link>
+            <Link href={link} className={pathname === `/${link}` ? 'font-bold' : ''}>{link}</Link>
           </li>
         ))}
         <Link href="/kontakt" className={`bg-green rounded-md p-4 text-white ${caveat.className}`}>Ställ ditt barn i kö</Link>
