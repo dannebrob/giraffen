@@ -10,8 +10,7 @@ const caveat = Caveat({
   })
 
 export const ReadMoreButton = ({link, text} ) => {
-  console.log(link);
-  console.log(text);
+
 
   // Use a default value for text in case it is undefined
   text = text || 'Läs mer';

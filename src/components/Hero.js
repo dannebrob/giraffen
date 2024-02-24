@@ -13,6 +13,8 @@ const caveat = Caveat({
   })
 
 export const Hero = () => {
+  console.log('// Denna sida skapades av Daniel Brobäck, besök min webbplats på www.danielbroback.se för mer information.')
+
   return (
     <section className='w-full pb-10 pt-20'>
     <Attention />
