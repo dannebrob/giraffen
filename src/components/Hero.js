@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Caveat } from 'next/font/google'
 import Link from 'next/link'
+import { createBucketClient } from '@cosmicjs/sdk';
+
 import { Attention } from './header/Attention'
 
 import Image from 'next/image'
 import heroImg from '@/assets/IMG_11.jpg'
+import { env } from '../../next.config';
 
 const caveat = Caveat({
     subsets: ['latin'],
@@ -12,9 +15,47 @@ const caveat = Caveat({
     display: 'swap',
   })
 
-export const Hero = () => {
-  console.log('// Denna sida skapades av Daniel Brobäck, besök min webbplats på www.danielbroback.se för mer information.')
+  const cosmic = createBucketClient({
+    bucketSlug: 'my-project-production-d888afc0-d70c-11ee-a373-d7fa93a92d7a',
+    readKey: 'hpncy7Fu1xSyMhljuuIoBx6UWyOFuKaOVTX3LlhZVAZt7ZAjig'
+  })
+  
+  
+  
+  export const Hero = () => {
+  const [hero, setHero] = useState(null)
+  
+  async function getHero() {
+    const data =await cosmic.objects.findOne({
+      type: "giraffens",
+      slug: "giraffen-hero"
+    }).props("slug,title,metadata")
+    .depth(1);
+    console.log(data)
+    setHero(data) 
+  }
 
+  const fetchData = async () => {
+    try {
+      const response = await cosmic.objects.findOne({
+        type: "giraffens",
+        slug: "giraffen-hero"
+      }).props("slug,title,metadata")
+      .depth(1);
+      setHero(response);
+      console.log(hero.object.metadata);
+    } catch (error) {
+      console.error('Fel vid hämtning av data:', error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData()
+  }
+  , [])
+
+
+  console.log('// Denna sida skapades av Daniel Brobäck, besök min webbplats på www.danielbroback.se för mer information.')
   return (
     <section className='w-full pb-10 pt-20'>
     <Attention />
@@ -32,10 +73,7 @@ export const Hero = () => {
             <h1 className={`${caveat.className} text-5xl py-8 text-center`}>Om Giraffen</h1>
             
             <p>
-            Vi har tid för omsorg om våra barn. Genom våra pedagogers och vårdnadshavares närvaro och 
-            engagemang för barnen får de goda förutsättningar att känna sig trygga och inspirerade i 
-            den miljö de befinner sig under dagarna. Dessutom är vår utemiljö otroligt vacker och 
-            våra omgivningar inspirerande i sig!
+            {hero?.object.metadata?.hero_text}
             </p>
             <p className='py-2'>
             Vi har en åldersintegrerad barngrupp (1–5 år) vilket ger barnen många möjligheter att 
