@@ -1,9 +1,13 @@
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
+import Instagram_logo from '@/assets/instagram.png'
+import FaceBook_logo from '@/assets/Facebook.png'
 
+import { SocialLinks } from '@/components/utils/SocialLinks'
 const FooterNav = () => {
   return (
-    <div>
+    <div> 
         <nav className='p-10 bg-sand flex flex-col'>
             <h2 className='font-bold pb-2 md:hidden text-center'>Länkar</h2>
             <ul className='flex flex-wrap justify-center'>
@@ -14,9 +18,8 @@ const FooterNav = () => {
             <li className='px-2 hover:font-bold'><Link href={'/jobb'}>Jobba hos oss</Link></li>
             <li className='px-2 hover:font-bold'><Link href={'/kontakt'}>Kontakta oss</Link></li>
             </ul>
-
-
         </nav>
+       <SocialLinks />
     </div>
   )
 }

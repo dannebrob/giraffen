@@ -21,7 +21,6 @@ export const Footer = () => {
            <p> E-post: info@forskolangiraffen.se</p>
         </div>
     </div>
-
     <FooterNav />
 
     </section>
