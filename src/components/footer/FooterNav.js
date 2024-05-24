@@ -1,8 +1,5 @@
 import Link from 'next/link'
 import React from 'react'
-import Image from 'next/image'
-import Instagram_logo from '@/assets/instagram.png'
-import FaceBook_logo from '@/assets/Facebook.png'
 
 import { SocialLinks } from '@/components/utils/SocialLinks'
 const FooterNav = () => {
