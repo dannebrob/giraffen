@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 import Instagram_logo from '@/assets/instagram.png'
-import FaceBook_logo from '@/assets/Facebook.png'
+import FaceBook_logo from '@/assets/facebook.png'
 
 
 export const SocialLinks = () => {
