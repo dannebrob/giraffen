@@ -12,12 +12,8 @@ const caveat = Caveat({
   display: 'swap',
 })
 
-
-
 export const TopHead = () => {
 
- 
-  
 const pathname = usePathname()
 
     const [nav, setNav] = useState(false);
