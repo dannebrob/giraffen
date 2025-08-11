@@ -22,7 +22,7 @@ const pathname = usePathname()
     {
       id: 1,
       link: "miljo",
-      name: "miljö,
+      name: "miljö",
     },
     {
       id: 2,
