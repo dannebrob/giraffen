@@ -31,8 +31,7 @@ export const Item2 = () => {
             <h2 className={`text-4xl p-8 text-center  ${caveat.className}`}>Maten</h2>
             <p>
             Giraffen har en egen kock som lagar mat från grunden och i möjligaste mån med 
-            ekologiska och närproducerade råvaror. Under sommarhalvåret har vi lyxen att få 
-            grönsaksleverans från Hemsjö köksträdgård. Maten är även en del av den pedagogiska
+            ekologiska och närproducerade råvaror. Maten är även en del av den pedagogiska
              verksamheten. Det skapar nyfikenhet och förståelse för matens ursprung och betydelse.
             </p>
         </div>
