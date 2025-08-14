@@ -25,8 +25,7 @@ export default function Mat() {
           <h1 className={`text-center ${caveat.className} text-4xl py-10`}>Mat</h1>
           <p className='pb-4'>
           Giraffen har en egen kock som lagar mat från grunden och i möjligaste mån med 
-          ekologiska och närproducerade råvaror. Under sommarhalvåret har vi lyxen att få 
-          grönsaksleverans från Hemsjö köksträdgård. Veckomenyn varierar, det bjuds på fisk 
+          ekologiska och närproducerade råvaror. Veckomenyn varierar, det bjuds på fisk 
           minst en gång i veckan, matiga soppor, husmanskost och olika vegetariska rätter. 
           Specialkost för de barn som behöver eller önskar det är en självklarhet.
           </p>
